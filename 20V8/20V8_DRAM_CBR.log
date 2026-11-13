@@ -1,0 +1,403 @@
+[Info] Saving new project file [E:\Work\eda\ALOC6502_KI\ALOC-6502\20V8_DRAM_CBR.wcp]
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+[0013cx] line(2) illegal character:  char ?: ASCII code:191
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+[0013cx] line(24) illegal character:  char ?: ASCII code:200
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+[0013cx] line(123) illegal character:  char ?: ASCII code:163
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+ 18:PIN 5   = NC ;
+                 ^
+[0014ca] variable already declared:  NC
+ 19:PIN 6   = NC ;
+                 ^
+[0014ca] variable already declared:  NC
+ 20:PIN 7   = NC ;
+                 ^
+[0014ca] variable already declared:  NC
+ 21:PIN 8   = NC ;
+                 ^
+[0014ca] variable already declared:  NC
+ 22:PIN 9   = NC ;
+                 ^
+[0014ca] variable already declared:  NC
+ 23:PIN 10  = NC ;
+                 ^
+[0014ca] variable already declared:  NC
+ 64:STATE :
+          ^
+[0009ca] missing symbol:  ;
+ 84:REF_REQ_RAW = (REF_CNT = B'
+                              ^
+[0009ca] missing symbol:  )
+[0047ca] vector size mismatch in comparison vector: REF_REQ_RAW
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+[0013cx] line(3) illegal character:  char ?: ASCII code:161
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+[0013cx] line(3) illegal character:  char ?: ASCII code:161
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+[0013cx] line(3) illegal character:  char ?: ASCII code:161
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+ 58:STATE :
+          ^
+[0009ca] missing symbol:  ;
+ 79:REF_CNT := C14_PULSE ? (REF_CNT + 1) : REF_CNT ;
+            ^
+[0009ca] missing symbol:  ;
+ 88:REF_REQ_SYNC1 := REF_REQ_RAW ;
+                  ^
+[0009ca] missing symbol:  ;
+ 89:REF_REQ_SYNC2 := REF_REQ_SYNC1 ;
+                  ^
+[0009ca] missing symbol:  ;
+[0047ca] vector size mismatch in comparison vector: GRANT_CPU
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+[0013cx] line(8) illegal character:  char ?: ASCII code:161
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+ 80:PRESENT B'00'
+             ^
+[0009ca] missing symbol:  default
+ 82:IF (REF_REQ_SYNC2 & !RAM_REQ) NEXT B'10' ;
+     ^
+[0007ca] invalid syntax:  if
+ 83:DEFAULT NEXT B'00' ;
+          ^
+[0007ca] invalid syntax:  default
+ 85:PRESENT B'01'
+          ^
+[0007ca] invalid syntax:  present
+ 87:DEFAULT NEXT B'01' ;
+          ^
+[0007ca] invalid syntax:  default
+ 89:PRESENT B'10'
+          ^
+[0007ca] invalid syntax:  present
+ 91:DEFAULT NEXT B'10' ;
+          ^
+[0007ca] invalid syntax:  default
+ 92:}
+    
+[0007ca] invalid syntax:  }
+102:ADDR_MUX_SEL = (S1 = 0
+                         ^
+[0007ca] invalid syntax:  0
+[0047ca] vector size mismatch in comparison vector: ADDR_MUX_SEL
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+133:VECTORS
+          ^
+[0009ca] missing symbol:  ;
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+133:
+    
+[0009ca] missing symbol:  ;
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+132:
+    
+[0009ca] missing symbol:  keyword or operator
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+133:
+    
+[0009ca] missing symbol:  ;
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+[0018ca] intermediate var not assigned an expression:  CLK
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+[0018ca] intermediate var not assigned an expression:  CLK
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+time: 0 secs
+cuplb
+time: 0 secs
+cuplm
+time: 0 secs
+cuplc
+time: 0 secs
+total time: 0 secs
+Normal exit
+Error Code = 0
+
+====================================== Compiler Message Ends ======================================
+[Info] Design compiled successfully
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+time: 0 secs
+cuplb
+time: 1 secs
+cuplm
+time: 0 secs
+cuplc
+time: 0 secs
+total time: 1 secs
+Normal exit
+Error Code = 0
+
+====================================== Compiler Message Ends ======================================
+[Info] Design compiled successfully
+[Info] Running compilation and simulation ...
+
+================================ Compiler/Simulator Message Begins ================================
+cuplx
+time: 0 secs
+cupla
+time: 0 secs
+cuplb
+time: 0 secs
+cuplm
+time: 0 secs
+cuplc
+time: 0 secs
+vsima
+time: 0 secs
+total time: 0 secs
+Normal exit
+Error Code = 0
+
+================================= Compiler/Simulator Message Ends =================================
+[Info] Design compiled and simulated successfully
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+[0013cx] line(3) illegal character:  char ?: ASCII code:161
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+[0013cx] line(3) illegal character:  char ?: ASCII code:161
+time: 0 secs
+Total time: 0 secs
+Fatal CUPL errors encountered ... program aborted!
+Normal exit
+Error Code = 1
+
+====================================== Compiler Message Ends ======================================
+[Error #1066] Compilation failed
+[Info] Running compilation ...
+
+===================================== Compiler Message Begins =====================================
+cuplx
+time: 0 secs
+cupla
+time: 0 secs
+cuplb
+time: 0 secs
+cuplm
+time: 0 secs
+cuplc
+time: 0 secs
+total time: 0 secs
+Normal exit
+Error Code = 0
+
+====================================== Compiler Message Ends ======================================
+[Info] Design compiled successfully
+[Info] Project file saved ... exiting application

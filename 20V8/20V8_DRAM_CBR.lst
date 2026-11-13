@@ -1,0 +1,147 @@
+LISTING FOR LOGIC DESCRIPTION FILE: 20V8_DRAM_CBR.pld                Page 1
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# MW-10400000
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Nov 11 14:10:38 2026
+
+  1:/* ============================================== */
+  2:/* GAL20V8 DRAM Controller + Divider Decoder + CBR Refresh*/
+  3:/* CLK: 14.31818MHz */
+  4:/* Pure primitive WinCUPL syntax, added #RESET at PIN4 */
+  5:/* Important hardware note: */
+  6:/* GAL20V8 Registered Mode: PIN1 = CLK, PIN13 = /OE (global register output enable, ACTIVE LOW) */
+  7:/* --> TIE PIN13 TO GND (0V) to keep register outputs always enabled. */
+  8:/* PIN11 is a normal input pin, NOT global OE. */
+  9:/* PIN4 = RESET_N, active low system reset. */
+ 10:/* ============================================== */
+ 11:NAME        DRAM_CBR_20V8 ;
+ 12:PARTNO      G20V8 ;
+ 13:DEVICE      G20V8MS ;
+ 14:REV         1.8 ;
+ 15:DATE        "2026-11-11" ;
+ 16:DESIGNER    "Retro 6502" ;
+ 17:COMPANY     "" ;
+ 18:ASSEMBLY    "" ;
+ 19:LOCATION    "" ;
+ 20:
+ 21:/* ---------- Pin Definition ---------- */
+ 22:PIN 1   = CLK ;         /* Global dedicated clock pin for GAL20V8 registered mode */
+ 23:PIN 2   = RAM_REQ ;     /* CPU DRAM access request */
+ 24:PIN 3   = R_W ;         /* 6502 R/W: 1=Read, 0=Write */
+ 25:PIN 4   = RESET_N ;     /* #RESET, active low, system reset */
+ 26:
+ 27:/* I/O Pins (12~21, GAL20V8 OLMC) */
+ 28:PIN 12  = UA_Q0 ;       /* U25 HC163 Q0 (Divide by 14 counter) */
+ 29:PIN 13  = GLOBAL_OE_N ; /* Hardware global /OE for registered outputs, ACTIVE LOW, tie to GND */
+ 30:PIN 14  = UA_Q1 ;       /* U25 HC163 Q1 */
+ 31:PIN 15  = UA_Q2 ;       /* U25 HC163 Q2 */
+ 32:PIN 16  = UA_Q3 ;       /* U25 HC163 Q3 */
+ 33:PIN 17  = UB_Q0 ;       /* U26 HC163 Q0 (Divide by 8 counter) */
+ 34:PIN 18  = UB_Q1 ;       /* U26 HC163 Q1 */
+ 35:PIN 19  = UB_Q2 ;       /* U26 HC163 Q2 */
+ 36:PIN 20  = UB_Q3 ;       /* U26 HC163 Q3 */
+ 37:PIN 21  = LOAD14 ;      /* -> U25 !LOAD, load signal for divide-by-14 */
+ 38:PIN 22  = LOAD8 ;       /* -> U26 !LOAD, load signal for divide-by-8 */
+ 39:
+ 40:PIN 23  = GND ;
+ 41:PIN 24  = VCC ;
+ 42:
+ 43:/* Buried register nodes */
+ 44:NODE R3, R2, R1, R0 ;   /* REF_CNT 4-bit refresh counter */
+ 45:NODE S1, S0 ;           /* State bits: 00=IDLE, 01=CPU_RW, 10=CBR_REF */
+ 46:NODE T1, T0 ;           /* Timing tick bits */
+ 47:NODE REF_REQ_SYNC1, REF_REQ_SYNC2 ;
+ 48:
+ 49:/* ---------- Combinational Logic: HC163 Decoding ---------- */
+ 50:UA_EQ_13 = UA_Q3 & UA_Q2 & !UA_Q1 & UA_Q0 ;  /* 1101 = decimal 13 */
+ 51:UB_EQ_7  = !UB_Q3 & UB_Q2 & UB_Q1 & UB_Q0 ;  /* 0111 = decimal 7 */
+ 52:
+ 53:LOAD14 = !UA_EQ_13 ;
+
+LISTING FOR LOGIC DESCRIPTION FILE: 20V8_DRAM_CBR.pld                Page 2
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# MW-10400000
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Nov 11 14:10:38 2026
+
+ 54:LOAD8  = !UB_EQ_7 ;
+ 55:
+ 56:C14_PULSE = UA_EQ_13 ;
+ 57:C8_PULSE  = UB_EQ_7 ;
+ 58:
+ 59:CPU_CLK   = C14_PULSE ;
+ 60:CHAR_CLK  = C8_PULSE ;
+ 61:
+ 62:/* ---------- Refresh request generation ---------- */
+ 63:REF_REQ_RAW = R3 & R2 & R1 & R0 ;
+ 64:
+ 65:/* 2-stage synchronizer for cross-clock domain, avoid metastability */
+ 66:REF_REQ_SYNC1.D = REF_REQ_RAW ;
+ 67:REF_REQ_SYNC2.D = REF_REQ_SYNC1 ;
+ 68:
+ 69:/* ---------- Refresh counter (4bit, increment on C14_PULSE, reset by REF_ACK or RESET_N) ---------- */
+ 70:R0.D = (!RESET_N & GND) # (RESET_N & ((!C14_PULSE & R0) # (C14_PULSE & !R0 & !REF_ACK))) ;
+ 71:R1.D = (!RESET_N & GND) # (RESET_N & ((!C14_PULSE & R1) # (C14_PULSE & (R0 $ R1) & !REF_ACK))) ;
+ 72:R2.D = (!RESET_N & GND) # (RESET_N & ((!C14_PULSE & R2) # (C14_PULSE & ((R2 $ (R1 & R0))) & !REF_ACK))) ;
+ 73:R3.D = (!RESET_N & GND) # (RESET_N & ((!C14_PULSE & R3) # (C14_PULSE & ((R3 $ (R2 & R1 & R0))) & !REF_ACK))) ;
+ 74:
+ 75:/* ---------- Next State Logic (Pure Boolean, No IF / PRESENT) ---------- */
+ 76:/* State encoding:
+ 77:   S1 S0
+ 78:   0  0   IDLE
+ 79:   0  1   CPU_RW
+ 80:   1  0   CBR_REF
+ 81:*/
+ 82:/* RESET_N low force state back to IDLE (S1=0, S0=0) */
+ 83:S0.D = (!RESET_N & GND) # (RESET_N & ( (!S1 & !S0 & RAM_REQ) # (!S1 & S0 & !(T1 & T0)) )) ;
+ 84:S1.D = (!RESET_N & GND) # (RESET_N & ( (!S1 & !S0 & !RAM_REQ & REF_REQ_SYNC2) # (S1 & !S0 & !(T1 & T0)) )) ;
+ 85:
+ 86:/* ---------- Tick counter T1 T0, run only when not IDLE, reset by RESET_N ---------- */
+ 87:T0.D = (!RESET_N & GND) # (RESET_N & ( (!S1 & !S0 & T0) # ((S1 # S0) & !T0) )) ;
+ 88:T1.D = (!RESET_N & GND) # (RESET_N & ( (!S1 & !S0 & T1) # ((S1 # S0) & (T0 $ T1)) )) ;
+ 89:
+ 90:/* ---------- DRAM timing outputs (CAS-before-RAS CBR) ---------- */
+ 91:ADDR_MUX_SEL = (!S1 & S0 & (T1 # T0)) ;
+ 92:
+ 93:DRAM_RAS = ! (
+ 94:    (!S1 & S0 & (T0 # T1))
+ 95:#   (S1 & !S0 & (T0 # T1))
+ 96:) ;
+ 97:
+ 98:DRAM_CAS = ! (
+ 99:    (!S1 & S0 & T1)
+100:#   (S1 & !S0)
+101:) ;
+102:
+103:DRAM_WE = ! ( (!S1 & S0 & T1 & !R_W) ) ;
+104:
+105:/* DRAM_OE: Assert on read cycle, deassert on write / refresh, controls 74HC245 */
+106:DRAM_OE = ! ( (!S1 & S0 & T1 & R_W) ) ;
+107:
+
+LISTING FOR LOGIC DESCRIPTION FILE: 20V8_DRAM_CBR.pld                Page 3
+
+CUPL(WM): Universal Compiler for Programmable Logic
+Version 5.0a Serial# MW-10400000
+Copyright (c) 1983, 1998 Logical Devices, Inc.
+Created Wed Nov 11 14:10:38 2026
+
+108:REF_ACK = (S1 & !S0 & T1 & T0) ;
+109:
+110:/* ---------- Individual OLMC output enable: permanently enable these combinatorial I/O outputs ---------- */
+111:LOAD14.OE = VCC ;
+112:LOAD8.OE  = VCC ;
+113:CPU_CLK.OE = VCC ;
+114:CHAR_CLK.OE = VCC ;
+115:DRAM_RAS.OE = VCC ;
+116:DRAM_CAS.OE = VCC ;
+117:DRAM_WE.OE = VCC ;
+118:DRAM_OE.OE = VCC ;
+119:ADDR_MUX_SEL.OE = VCC ;
+120:REF_ACK.OE = VCC ;
+121:
+
+
+

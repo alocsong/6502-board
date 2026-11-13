@@ -1,0 +1,120 @@
+/* ============================================== */
+/* GAL20V8 DRAM Controller + Divider Decoder + CBR Refresh*/
+/* CLK: 14.31818MHz */
+/* Pure primitive WinCUPL syntax, added #RESET at PIN4 */
+/* Important hardware note: */
+/* GAL20V8 Registered Mode: PIN1 = CLK, PIN13 = /OE (global register output enable, ACTIVE LOW) */
+/* --> TIE PIN13 TO GND (0V) to keep register outputs always enabled. */
+/* PIN11 is a normal input pin, NOT global OE. */
+/* PIN4 = RESET_N, active low system reset. */
+/* ============================================== */
+NAME        DRAM_CBR_20V8 ;
+PARTNO      G20V8 ;
+DEVICE      G20V8MS ;
+REV         1.8 ;
+DATE        "2026-11-11" ;
+DESIGNER    "Retro 6502" ;
+COMPANY     "" ;
+ASSEMBLY    "" ;
+LOCATION    "" ;
+
+/* ---------- Pin Definition ---------- */
+PIN 1   = CLK ;         /* Global dedicated clock pin for GAL20V8 registered mode */
+PIN 2   = RAM_REQ ;     /* CPU DRAM access request */
+PIN 3   = R_W ;         /* 6502 R/W: 1=Read, 0=Write */
+PIN 4   = RESET_N ;     /* #RESET, active low, system reset */
+
+/* I/O Pins (12~21, GAL20V8 OLMC) */
+PIN 12  = UA_Q0 ;       /* U25 HC163 Q0 (Divide by 14 counter) */
+PIN 13  = GLOBAL_OE_N ; /* Hardware global /OE for registered outputs, ACTIVE LOW, tie to GND */
+PIN 14  = UA_Q1 ;       /* U25 HC163 Q1 */
+PIN 15  = UA_Q2 ;       /* U25 HC163 Q2 */
+PIN 16  = UA_Q3 ;       /* U25 HC163 Q3 */
+PIN 17  = UB_Q0 ;       /* U26 HC163 Q0 (Divide by 8 counter) */
+PIN 18  = UB_Q1 ;       /* U26 HC163 Q1 */
+PIN 19  = UB_Q2 ;       /* U26 HC163 Q2 */
+PIN 20  = UB_Q3 ;       /* U26 HC163 Q3 */
+PIN 21  = LOAD14 ;      /* -> U25 !LOAD, load signal for divide-by-14 */
+PIN 22  = LOAD8 ;       /* -> U26 !LOAD, load signal for divide-by-8 */
+
+PIN 23  = GND ;
+PIN 24  = VCC ;
+
+/* Buried register nodes */
+NODE R3, R2, R1, R0 ;   /* REF_CNT 4-bit refresh counter */
+NODE S1, S0 ;           /* State bits: 00=IDLE, 01=CPU_RW, 10=CBR_REF */
+NODE T1, T0 ;           /* Timing tick bits */
+NODE REF_REQ_SYNC1, REF_REQ_SYNC2 ;
+
+/* ---------- Combinational Logic: HC163 Decoding ---------- */
+UA_EQ_13 = UA_Q3 & UA_Q2 & !UA_Q1 & UA_Q0 ;  /* 1101 = decimal 13 */
+UB_EQ_7  = !UB_Q3 & UB_Q2 & UB_Q1 & UB_Q0 ;  /* 0111 = decimal 7 */
+
+LOAD14 = !UA_EQ_13 ;
+LOAD8  = !UB_EQ_7 ;
+
+C14_PULSE = UA_EQ_13 ;
+C8_PULSE  = UB_EQ_7 ;
+
+CPU_CLK   = C14_PULSE ;
+CHAR_CLK  = C8_PULSE ;
+
+/* ---------- Refresh request generation ---------- */
+REF_REQ_RAW = R3 & R2 & R1 & R0 ;
+
+/* 2-stage synchronizer for cross-clock domain, avoid metastability */
+REF_REQ_SYNC1.D = REF_REQ_RAW ;
+REF_REQ_SYNC2.D = REF_REQ_SYNC1 ;
+
+/* ---------- Refresh counter (4bit, increment on C14_PULSE, reset by REF_ACK or RESET_N) ---------- */
+R0.D = (!RESET_N & GND) # (RESET_N & ((!C14_PULSE & R0) # (C14_PULSE & !R0 & !REF_ACK))) ;
+R1.D = (!RESET_N & GND) # (RESET_N & ((!C14_PULSE & R1) # (C14_PULSE & (R0 $ R1) & !REF_ACK))) ;
+R2.D = (!RESET_N & GND) # (RESET_N & ((!C14_PULSE & R2) # (C14_PULSE & ((R2 $ (R1 & R0))) & !REF_ACK))) ;
+R3.D = (!RESET_N & GND) # (RESET_N & ((!C14_PULSE & R3) # (C14_PULSE & ((R3 $ (R2 & R1 & R0))) & !REF_ACK))) ;
+
+/* ---------- Next State Logic (Pure Boolean, No IF / PRESENT) ---------- */
+/* State encoding:
+   S1 S0
+   0  0   IDLE
+   0  1   CPU_RW
+   1  0   CBR_REF
+*/
+/* RESET_N low force state back to IDLE (S1=0, S0=0) */
+S0.D = (!RESET_N & GND) # (RESET_N & ( (!S1 & !S0 & RAM_REQ) # (!S1 & S0 & !(T1 & T0)) )) ;
+S1.D = (!RESET_N & GND) # (RESET_N & ( (!S1 & !S0 & !RAM_REQ & REF_REQ_SYNC2) # (S1 & !S0 & !(T1 & T0)) )) ;
+
+/* ---------- Tick counter T1 T0, run only when not IDLE, reset by RESET_N ---------- */
+T0.D = (!RESET_N & GND) # (RESET_N & ( (!S1 & !S0 & T0) # ((S1 # S0) & !T0) )) ;
+T1.D = (!RESET_N & GND) # (RESET_N & ( (!S1 & !S0 & T1) # ((S1 # S0) & (T0 $ T1)) )) ;
+
+/* ---------- DRAM timing outputs (CAS-before-RAS CBR) ---------- */
+ADDR_MUX_SEL = (!S1 & S0 & (T1 # T0)) ;
+
+DRAM_RAS = ! (
+    (!S1 & S0 & (T0 # T1))
+#   (S1 & !S0 & (T0 # T1))
+) ;
+
+DRAM_CAS = ! (
+    (!S1 & S0 & T1)
+#   (S1 & !S0)
+) ;
+
+DRAM_WE = ! ( (!S1 & S0 & T1 & !R_W) ) ;
+
+/* DRAM_OE: Assert on read cycle, deassert on write / refresh, controls 74HC245 */
+DRAM_OE = ! ( (!S1 & S0 & T1 & R_W) ) ;
+
+REF_ACK = (S1 & !S0 & T1 & T0) ;
+
+/* ---------- Individual OLMC output enable: permanently enable these combinatorial I/O outputs ---------- */
+LOAD14.OE = VCC ;
+LOAD8.OE  = VCC ;
+CPU_CLK.OE = VCC ;
+CHAR_CLK.OE = VCC ;
+DRAM_RAS.OE = VCC ;
+DRAM_CAS.OE = VCC ;
+DRAM_WE.OE = VCC ;
+DRAM_OE.OE = VCC ;
+ADDR_MUX_SEL.OE = VCC ;
+REF_ACK.OE = VCC ;

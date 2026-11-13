@@ -1,0 +1,228 @@
+%SIGNAL
+PIN   1 =  CLK 
+PIN  13 =  GLOBAL_OE_N 
+PIN  23 =  GND 
+PIN  22 =  LOAD8 
+PIN  21 =  LOAD14 
+PIN 204 =  R0 
+PIN 203 =  R1 
+PIN 202 =  R2 
+PIN 201 =  R3 
+PIN   2 =  RAM_REQ 
+PIN 209 =  REF_REQ_SYNC1 
+PIN 210 =  REF_REQ_SYNC2 
+PIN   4 =  RESET_N 
+PIN   3 =  R_W 
+PIN 206 =  S0 
+PIN 205 =  S1 
+PIN 208 =  T0 
+PIN 207 =  T1 
+PIN  12 =  UA_Q0 
+PIN  14 =  UA_Q1 
+PIN  15 =  UA_Q2 
+PIN  16 =  UA_Q3 
+PIN  17 =  UB_Q0 
+PIN  18 =  UB_Q1 
+PIN  19 =  UB_Q2 
+PIN  20 =  UB_Q3 
+PIN  24 =  VCC 
+%END
+
+%FIELD
+%END
+
+%EQUATION
+ADDR_MUX_SEL =>
+    S0 & !S1 & T0
+  # S0 & !S1 & T1
+
+ADDR_MUX_SEL =>
+    VCC
+
+C14_PULSE =>
+    UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+
+C8_PULSE =>
+    UB_Q0 & UB_Q1 & UB_Q2 & !UB_Q3
+
+CHAR_CLK =>
+    UB_Q0 & UB_Q1 & UB_Q2 & !UB_Q3
+
+CHAR_CLK =>
+    VCC
+
+CPU_CLK =>
+    UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+
+CPU_CLK =>
+    VCC
+
+DRAM_CAS =>
+    !S0 & !S1
+  # !S1 & !T1
+  # S0 & S1
+  # S0 & !T1
+
+DRAM_CAS =>
+    VCC
+
+DRAM_OE =>
+    S1
+  # !S0
+  # !T1
+  # !R_W
+
+DRAM_OE =>
+    VCC
+
+DRAM_RAS =>
+    !S0 & !S1
+  # !T0 & !T1
+  # S0 & S1
+
+DRAM_RAS =>
+    VCC
+
+DRAM_WE =>
+    S1
+  # !S0
+  # !T1
+  # R_W
+
+DRAM_WE =>
+    VCC
+
+LOAD8 =>
+    UB_Q3
+  # !UB_Q2
+  # !UB_Q1
+  # !UB_Q0
+
+LOAD8.oe  =>
+    VCC
+
+LOAD14 =>
+    !UA_Q3
+  # !UA_Q2
+  # UA_Q1
+  # !UA_Q0
+
+LOAD14.oe  =>
+    VCC
+
+R0.d  =>
+    GND & !RESET_N
+  # !R0 & RESET_N & !S1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & RESET_N & S0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & RESET_N & !T1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & RESET_N & !T0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & RESET_N & !UA_Q3
+  # R0 & RESET_N & !UA_Q2
+  # R0 & RESET_N & !UA_Q0
+  # R0 & RESET_N & UA_Q1
+
+R1.d  =>
+    GND & !RESET_N
+  # !R0 & R1 & RESET_N & !S1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & !R1 & RESET_N & !S1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R1 & RESET_N & S0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & !R1 & RESET_N & S0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R1 & RESET_N & !T1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & !R1 & RESET_N & !T1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R1 & RESET_N & !T0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & !R1 & RESET_N & !T0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R1 & RESET_N & !UA_Q3
+  # R1 & RESET_N & !UA_Q2
+  # R1 & RESET_N & !UA_Q0
+  # R1 & RESET_N & UA_Q1
+
+R2.d  =>
+    GND & !RESET_N
+  # R0 & R1 & !R2 & RESET_N & !S1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R2 & RESET_N & !S1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R1 & R2 & RESET_N & !S1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & R1 & !R2 & RESET_N & S0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R2 & RESET_N & S0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R1 & R2 & RESET_N & S0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & R1 & !R2 & RESET_N & !T1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R2 & RESET_N & !T1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R1 & R2 & RESET_N & !T1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & R1 & !R2 & RESET_N & !T0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R2 & RESET_N & !T0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R1 & R2 & RESET_N & !T0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R2 & RESET_N & !UA_Q3
+  # R2 & RESET_N & !UA_Q2
+  # R2 & RESET_N & !UA_Q0
+  # R2 & RESET_N & UA_Q1
+
+R3.d  =>
+    GND & !RESET_N
+  # R0 & R1 & R2 & !R3 & RESET_N & !S1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R2 & R3 & RESET_N & !S1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R3 & RESET_N & !S1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R1 & R3 & RESET_N & !S1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & R1 & R2 & !R3 & RESET_N & S0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R2 & R3 & RESET_N & S0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R3 & RESET_N & S0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R1 & R3 & RESET_N & S0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & R1 & R2 & !R3 & RESET_N & !T1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R2 & R3 & RESET_N & !T1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R3 & RESET_N & !T1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R1 & R3 & RESET_N & !T1 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R0 & R1 & R2 & !R3 & RESET_N & !T0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R2 & R3 & RESET_N & !T0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R0 & R3 & RESET_N & !T0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # !R1 & R3 & RESET_N & !T0 & UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+  # R3 & RESET_N & !UA_Q3
+  # R3 & RESET_N & !UA_Q2
+  # R3 & RESET_N & !UA_Q0
+  # R3 & RESET_N & UA_Q1
+
+REF_ACK =>
+    !S0 & S1 & T0 & T1
+
+REF_ACK =>
+    VCC
+
+REF_REQ_RAW =>
+    R0 & R1 & R2 & R3
+
+REF_REQ_SYNC1.d  =>
+    R0 & R1 & R2 & R3
+
+REF_REQ_SYNC2.d  =>
+    REF_REQ_SYNC1
+
+S0.d  =>
+    GND & !RESET_N
+  # RAM_REQ & RESET_N & !S0 & !S1
+  # RESET_N & S0 & !S1 & !T1
+  # RESET_N & S0 & !S1 & !T0
+
+S1.d  =>
+    GND & !RESET_N
+  # !RAM_REQ & REF_REQ_SYNC2 & RESET_N & !S0 & !S1
+  # RESET_N & !S0 & S1 & !T1
+  # RESET_N & !S0 & S1 & !T0
+
+T0.d  =>
+    GND & !RESET_N
+  # RESET_N & !S0 & !S1 & T0
+  # RESET_N & S0 & !T0
+  # RESET_N & S1 & !T0
+
+T1.d  =>
+    GND & !RESET_N
+  # RESET_N & !S0 & !S1 & T1
+  # RESET_N & S1 & !T0 & T1
+  # RESET_N & S0 & !T0 & T1
+  # RESET_N & S0 & T0 & !T1
+  # RESET_N & S1 & T0 & !T1
+
+UA_EQ_13 =>
+    UA_Q0 & !UA_Q1 & UA_Q2 & UA_Q3
+
+UB_EQ_7 =>
+    UB_Q0 & UB_Q1 & UB_Q2 & !UB_Q3
+
+%END
