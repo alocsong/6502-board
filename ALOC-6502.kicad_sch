@@ -11002,6 +11002,12 @@
 		(uuid "562333d4-2499-48dd-9556-003809c82d34")
 	)
 	(junction
+		(at 236.22 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "569ab03b-39c9-4018-a5d8-0ee097494e3c")
+	)
+	(junction
 		(at 228.6 16.51)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11092,7 +11098,7 @@
 		(uuid "b9ba9ff8-62dc-4790-ad90-b4e4a81c5b2f")
 	)
 	(junction
-		(at 148.59 185.42)
+		(at 236.22 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bce781e4-ecc6-4e14-b2dd-fe144ade540b")
@@ -11930,7 +11936,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 185.42) (xy 148.59 187.96)
+			(xy 236.22 143.51) (xy 236.22 156.21)
 		)
 		(stroke
 			(width 0)
@@ -12120,7 +12126,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 138.43) (xy 185.42 138.43)
+			(xy 189.23 135.89) (xy 185.42 135.89)
 		)
 		(stroke
 			(width 0)
@@ -12140,7 +12146,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 96.52) (xy 267.97 95.25)
+			(xy 267.97 85.09) (xy 267.97 83.82)
 		)
 		(stroke
 			(width 0)
@@ -12280,7 +12286,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 144.78) (xy 271.78 144.78)
+			(xy 261.62 132.08) (xy 271.78 132.08)
 		)
 		(stroke
 			(width 0)
@@ -12440,7 +12446,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 96.52) (xy 278.13 95.25)
+			(xy 278.13 85.09) (xy 278.13 83.82)
 		)
 		(stroke
 			(width 0)
@@ -12470,7 +12476,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 102.87) (xy 278.13 105.41)
+			(xy 278.13 91.44) (xy 278.13 93.98)
 		)
 		(stroke
 			(width 0)
@@ -12500,7 +12506,17 @@
 	)
 	(wire
 		(pts
-			(xy 214.63 140.97) (xy 204.47 140.97)
+			(xy 251.46 146.05) (xy 271.78 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a45865c-e3c2-4742-b43c-fccddf284319")
+	)
+	(wire
+		(pts
+			(xy 204.47 138.43) (xy 271.78 138.43)
 		)
 		(stroke
 			(width 0)
@@ -12600,7 +12616,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 85.09) (xy 278.13 87.63)
+			(xy 278.13 73.66) (xy 278.13 76.2)
 		)
 		(stroke
 			(width 0)
@@ -12837,16 +12853,6 @@
 			(type default)
 		)
 		(uuid "43d33abd-808a-4d88-8395-3e2c6266e7ad")
-	)
-	(wire
-		(pts
-			(xy 148.59 180.34) (xy 148.59 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "45d44c6a-fc65-4efb-8f32-1f47766ebb6c")
 	)
 	(wire
 		(pts
@@ -13120,7 +13126,7 @@
 	)
 	(wire
 		(pts
-			(xy 278.13 120.65) (xy 278.13 128.27)
+			(xy 278.13 109.22) (xy 278.13 116.84)
 		)
 		(stroke
 			(width 0)
@@ -13140,7 +13146,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 85.09) (xy 267.97 87.63)
+			(xy 267.97 73.66) (xy 267.97 76.2)
 		)
 		(stroke
 			(width 0)
@@ -13200,7 +13206,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 143.51) (xy 185.42 143.51)
+			(xy 189.23 140.97) (xy 185.42 140.97)
 		)
 		(stroke
 			(width 0)
@@ -13480,7 +13486,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 102.87) (xy 267.97 105.41)
+			(xy 267.97 91.44) (xy 267.97 93.98)
 		)
 		(stroke
 			(width 0)
@@ -14770,7 +14776,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 120.65) (xy 267.97 128.27)
+			(xy 267.97 109.22) (xy 267.97 116.84)
 		)
 		(stroke
 			(width 0)
@@ -14930,7 +14936,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 143.51) (xy 185.42 163.83)
+			(xy 185.42 140.97) (xy 185.42 163.83)
 		)
 		(stroke
 			(width 0)
@@ -15050,7 +15056,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 142.24) (xy 271.78 142.24)
+			(xy 261.62 129.54) (xy 271.78 129.54)
 		)
 		(stroke
 			(width 0)
@@ -15139,7 +15145,7 @@
 		(uuid "0682b276-c637-4e07-9c25-c65efbbe030d")
 	)
 	(label "BR1"
-		(at 261.62 144.78 0)
+		(at 261.62 132.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15279,7 +15285,7 @@
 		(uuid "266f4635-4cf3-4636-bc3c-ab78479dc17d")
 	)
 	(label "EA14"
-		(at 278.13 128.27 90)
+		(at 278.13 116.84 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15539,7 +15545,7 @@
 		(uuid "617d5d07-4f11-4484-bf4c-bf026c6e4244")
 	)
 	(label "ROM_~{OE}"
-		(at 214.63 140.97 180)
+		(at 214.63 138.43 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15611,7 +15617,7 @@
 		(uuid "74c03f39-047a-4195-a72d-19626fa9ae6d")
 	)
 	(label "BR0"
-		(at 261.62 142.24 0)
+		(at 261.62 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15641,7 +15647,7 @@
 		(uuid "7f7e0006-59fd-44e2-b2fc-14e8370a6889")
 	)
 	(label "LΦ_{2}"
-		(at 185.42 138.43 0)
+		(at 185.42 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15781,7 +15787,7 @@
 		(uuid "9d3bd32e-3f2e-4e92-97f3-aaec5b329cfd")
 	)
 	(label "EA13"
-		(at 267.97 128.27 90)
+		(at 267.97 116.84 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15801,7 +15807,7 @@
 		(uuid "a4a45ce8-00ac-4a52-a255-529ae81c85e3")
 	)
 	(label "R{slash}~{W}"
-		(at 185.42 143.51 0)
+		(at 185.42 140.97 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16294,6 +16300,30 @@
 			)
 		)
 	)
+	(global_label "RESET"
+		(shape output)
+		(at 271.78 146.05 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "254d92d6-2348-46cb-bec9-aac645183777")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 280.5103 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
 	(global_label "Φ_{2}"
 		(shape input)
 		(at 22.86 69.85 180)
@@ -16440,7 +16470,7 @@
 	)
 	(global_label "BR1"
 		(shape output)
-		(at 271.78 144.78 0)
+		(at 271.78 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16450,7 +16480,7 @@
 		)
 		(uuid "55ab4aca-2776-4c2b-87d2-b60db13d0007")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5147 144.78 0)
+			(at 278.5147 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16464,7 +16494,7 @@
 	)
 	(global_label "BR0"
 		(shape output)
-		(at 271.78 142.24 0)
+		(at 271.78 129.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -16474,7 +16504,7 @@
 		)
 		(uuid "6af35111-e800-411c-b51b-db0b6c8d108d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5147 142.24 0)
+			(at 278.5147 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16627,6 +16657,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "~{RD}"
+		(shape output)
+		(at 271.78 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c9a8d59b-c2a3-4526-8843-3426b4515b50")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.3052 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -17044,7 +17098,6 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_7")
 		(lib_id "my_retro_chip:RES")
 		(at 92.71 146.05 0)
 		(unit 1)
@@ -17592,7 +17645,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 278.13 113.03 90)
+		(at 278.13 101.6 90)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17602,7 +17655,7 @@
 		(dnp no)
 		(uuid "17a705ca-4e0d-4b54-ad5f-77642a38fca8")
 		(property "Reference" "U32"
-			(at 272.796 114.554 0)
+			(at 272.796 103.124 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17612,7 +17665,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 271.78 113.03 0)
+			(at 271.78 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17623,7 +17676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 113.03 0)
+			(at 278.13 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17634,7 +17687,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 278.13 113.03 0)
+			(at 278.13 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17645,7 +17698,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 278.13 113.03 0)
+			(at 278.13 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18927,7 +18980,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 267.97 113.03 90)
+		(at 267.97 101.6 90)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18937,7 +18990,7 @@
 		(dnp no)
 		(uuid "38ca28d3-afdb-4938-81cf-62bac97d1c1e")
 		(property "Reference" "U32"
-			(at 262.89 113.792 0)
+			(at 262.89 102.362 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18947,7 +19000,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 261.62 113.03 0)
+			(at 261.62 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18958,7 +19011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 113.03 0)
+			(at 267.97 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18969,7 +19022,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 267.97 113.03 0)
+			(at 267.97 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18980,7 +19033,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 267.97 113.03 0)
+			(at 267.97 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19043,7 +19096,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC02")
-		(at 156.21 182.88 0)
+		(at 243.84 146.05 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19053,7 +19106,7 @@
 		(dnp no)
 		(uuid "3c5c5fc6-a0ee-4add-9117-e33c51651398")
 		(property "Reference" "U33"
-			(at 154.432 177.8 0)
+			(at 242.062 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19063,7 +19116,7 @@
 			)
 		)
 		(property "Value" "74HC02"
-			(at 161.544 187.452 0)
+			(at 249.174 150.622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19074,7 +19127,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 156.21 182.88 0)
+			(at 243.84 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19085,7 +19138,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc02"
-			(at 156.21 182.88 0)
+			(at 243.84 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19096,7 +19149,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NOR gate"
-			(at 156.21 182.88 0)
+			(at 243.84 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19590,7 +19643,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_1")
+		(lib_name "CAP_S_3")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 161.29 81.28 270)
 		(unit 1)
@@ -19963,7 +20016,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 278.13 85.09 0)
+		(at 278.13 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19973,7 +20026,7 @@
 		(dnp no)
 		(uuid "533b4d34-e0e6-46c3-9ab7-1cdb02fefb85")
 		(property "Reference" "#PWR0119"
-			(at 278.13 88.9 0)
+			(at 278.13 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19984,7 +20037,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 278.13 79.502 90)
+			(at 278.13 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19994,7 +20047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 85.09 0)
+			(at 278.13 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20005,7 +20058,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 85.09 0)
+			(at 278.13 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20016,7 +20069,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 278.13 85.09 0)
+			(at 278.13 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20200,7 +20253,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_6")
+		(lib_name "RES_1")
 		(lib_id "my_retro_chip:RES")
 		(at 30.48 135.89 270)
 		(unit 1)
@@ -20576,6 +20629,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RES_3")
 		(lib_id "my_retro_chip:RES")
 		(at 171.45 149.86 270)
 		(unit 1)
@@ -20983,9 +21037,9 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_3")
+		(lib_name "RES_2")
 		(lib_id "my_retro_chip:RES")
-		(at 265.43 100.33 90)
+		(at 265.43 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20995,7 +21049,7 @@
 		(dnp no)
 		(uuid "6aed10d0-3c66-45d3-86fb-4c67429d2840")
 		(property "Reference" "R14"
-			(at 265.938 101.092 0)
+			(at 265.938 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21005,7 +21059,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 270.256 99.314 0)
+			(at 270.256 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21015,7 +21069,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 265.43 100.33 0)
+			(at 265.43 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21026,7 +21080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 100.33 0)
+			(at 265.43 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21037,7 +21091,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 265.43 100.33 0)
+			(at 265.43 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21497,7 +21551,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_4")
+		(lib_name "CAP_S_1")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 185.42 25.4 0)
 		(unit 1)
@@ -23144,7 +23198,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 196.85 140.97 0)
+		(at 196.85 138.43 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23154,7 +23208,7 @@
 		(dnp no)
 		(uuid "994b83a3-ff9b-444d-976c-01d79675864b")
 		(property "Reference" "U5"
-			(at 195.072 135.636 0)
+			(at 195.072 133.096 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23164,7 +23218,7 @@
 			)
 		)
 		(property "Value" "74HC00"
-			(at 197.358 146.558 0)
+			(at 197.358 144.018 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23174,7 +23228,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 140.97 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23185,7 +23239,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 196.85 140.97 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23196,7 +23250,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
-			(at 196.85 140.97 0)
+			(at 196.85 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23417,7 +23471,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 267.97 85.09 0)
+		(at 267.97 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23427,7 +23481,7 @@
 		(dnp no)
 		(uuid "9fccc1f8-f7de-4d2f-bc8c-1463b7255e85")
 		(property "Reference" "#PWR0118"
-			(at 267.97 88.9 0)
+			(at 267.97 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23438,7 +23492,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 267.97 79.502 90)
+			(at 267.97 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23448,7 +23502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 85.09 0)
+			(at 267.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23459,7 +23513,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 85.09 0)
+			(at 267.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23470,7 +23524,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 267.97 85.09 0)
+			(at 267.97 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23572,7 +23626,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_5")
+		(lib_name "RES_4")
 		(lib_id "my_retro_chip:RES")
 		(at 34.29 96.52 270)
 		(unit 1)
@@ -23850,7 +23904,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_2")
+		(lib_name "RES_6")
 		(lib_id "my_retro_chip:RES")
 		(at 38.1 96.52 270)
 		(unit 1)
@@ -24013,9 +24067,9 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_8")
+		(lib_name "RES_5")
 		(lib_id "my_retro_chip:RES")
-		(at 275.59 100.33 90)
+		(at 275.59 88.9 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24025,7 +24079,7 @@
 		(dnp no)
 		(uuid "afc1ac7f-444c-419c-add7-aada57784006")
 		(property "Reference" "R15"
-			(at 276.098 101.092 0)
+			(at 276.098 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24035,7 +24089,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 280.416 99.314 0)
+			(at 280.416 87.884 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24045,7 +24099,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 275.59 100.33 0)
+			(at 275.59 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24056,7 +24110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 275.59 100.33 0)
+			(at 275.59 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24067,7 +24121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 275.59 100.33 0)
+			(at 275.59 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25206,7 +25260,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_3")
+		(lib_name "CAP_S_4")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 106.68 29.21 0)
 		(unit 1)
@@ -25715,7 +25769,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 278.13 91.44 270)
+		(at 278.13 80.01 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -25726,7 +25780,7 @@
 		(dnp no)
 		(uuid "c81e75f6-3e5c-47d0-a412-8b2cc8da7e3a")
 		(property "Reference" "D4"
-			(at 275.336 90.424 0)
+			(at 275.336 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25736,7 +25790,7 @@
 			)
 		)
 		(property "Value" "EA14"
-			(at 281.432 91.694 0)
+			(at 281.432 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25746,7 +25800,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 278.13 91.44 0)
+			(at 278.13 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25757,7 +25811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 278.13 91.44 0)
+			(at 278.13 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25768,7 +25822,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 278.13 91.44 0)
+			(at 278.13 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25779,7 +25833,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 278.13 91.44 0)
+			(at 278.13 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25805,7 +25859,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_4")
+		(lib_name "RES_8")
 		(lib_id "my_retro_chip:RES")
 		(at 30.48 96.52 270)
 		(unit 1)
@@ -26746,87 +26800,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDREF")
-		(at 148.59 187.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e868898b-ef2f-4ccd-ac2c-848e398667ec")
-		(property "Reference" "#PWR0121"
-			(at 148.59 194.31 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 148.5901 191.77 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 148.59 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 148.59 187.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ee62acba-d5c2-4ee0-a666-dbf6fd436d17")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
-					(reference "#PWR0121")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
-		(at 267.97 91.44 270)
+		(at 267.97 80.01 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -26837,7 +26812,7 @@
 		(dnp no)
 		(uuid "e9783f45-5e83-4ad3-99a5-c367b0ff1657")
 		(property "Reference" "D3"
-			(at 265.176 90.424 0)
+			(at 265.176 78.994 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26847,7 +26822,7 @@
 			)
 		)
 		(property "Value" "EA13"
-			(at 271.272 91.44 0)
+			(at 271.272 80.01 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26857,7 +26832,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 267.97 91.44 0)
+			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26868,7 +26843,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 91.44 0)
+			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26879,7 +26854,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 267.97 91.44 0)
+			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26890,7 +26865,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 267.97 91.44 0)
+			(at 267.97 80.01 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26948,7 +26923,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_SMA_Handsoldering"
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
 			(at 31.115 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -27267,7 +27242,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_1")
+		(lib_name "RES_7")
 		(lib_id "my_retro_chip:RES")
 		(at 35.56 36.83 0)
 		(mirror x)

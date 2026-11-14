@@ -11846,7 +11846,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_5")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 154.94 44.45 90)
 		(unit 1)
@@ -12199,6 +12198,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RES_1")
 		(lib_id "my_retro_chip:RES")
 		(at 69.85 170.18 0)
 		(unit 1)
@@ -12357,7 +12357,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_3")
+		(lib_name "CAP_S_1")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 91.44 64.77 90)
 		(unit 1)
@@ -12712,7 +12712,6 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_2")
 		(lib_id "my_retro_chip:RES")
 		(at 95.25 182.88 90)
 		(unit 1)
@@ -13539,7 +13538,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_4")
+		(lib_name "CAP_S_2")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 45.72 146.05 90)
 		(unit 1)
@@ -14804,6 +14803,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CAP_S_4")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 80.01 182.88 0)
 		(unit 1)
@@ -16224,7 +16224,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_2")
+		(lib_name "CAP_S_3")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 45.72 86.36 90)
 		(unit 1)
@@ -16512,7 +16512,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_11")
+		(lib_name "CAP_S_7")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 247.65 99.06 90)
 		(unit 1)
@@ -16593,7 +16593,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_12")
+		(lib_name "CAP_S_5")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 267.97 99.06 90)
 		(unit 1)
@@ -16809,7 +16809,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_7")
+		(lib_name "CAP_S_9")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 236.22 44.45 90)
 		(unit 1)
@@ -17086,7 +17086,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_9")
+		(lib_name "CAP_S_12")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 158.75 96.52 270)
 		(mirror x)
@@ -17285,7 +17285,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_10")
+		(lib_name "CAP_S_11")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 227.33 99.06 90)
 		(unit 1)
@@ -18146,7 +18146,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_1")
+		(lib_name "RES_2")
 		(lib_id "my_retro_chip:RES")
 		(at 88.9 165.1 0)
 		(unit 1)
@@ -18305,7 +18305,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_1")
+		(lib_name "CAP_S_10")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 97.79 182.88 0)
 		(unit 1)
