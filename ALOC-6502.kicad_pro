@@ -676,7 +676,7 @@
       },
       {
         "filename": "io.kicad_sch",
-        "name": "IO",
+        "name": "UART_BANK",
         "uuid": "07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
       },
       {
@@ -685,7 +685,7 @@
         "uuid": "c3417104-fce9-4143-9885-45facbfdb109"
       }
     ],
-    "used_designators": "#PWR1-138,C1-38,D1-4,J1-2,JP1-4,L1-4,Q1-3,R1-17,SW1-2,U1-50,Y1-2",
+    "used_designators": "#PWR1-153,C1-41,D1-10,J1-2,JP1-4,L1-4,Q1-3,R1-21,SW1-2,U1-50,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -703,7 +703,7 @@
     ],
     [
       "07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd",
-      "IO"
+      "UART_BANK"
     ],
     [
       "c3417104-fce9-4143-9885-45facbfdb109",
