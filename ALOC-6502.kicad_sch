@@ -14686,7 +14686,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 132.08) (xy 27.94 133.35)
+			(xy 27.94 130.81) (xy 27.94 133.35)
 		)
 		(stroke
 			(width 0)
@@ -22879,7 +22879,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 27.94 132.08 0)
+		(at 27.94 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22889,7 +22889,7 @@
 		(dnp no)
 		(uuid "94a3877b-543f-4bd6-bcb2-722331fec013")
 		(property "Reference" "#PWR084"
-			(at 27.94 135.89 0)
+			(at 27.94 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22900,7 +22900,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 27.94 127.762 0)
+			(at 27.94 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22910,7 +22910,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 27.94 132.08 0)
+			(at 27.94 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22921,7 +22921,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 27.94 132.08 0)
+			(at 27.94 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22932,7 +22932,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 27.94 132.08 0)
+			(at 27.94 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
