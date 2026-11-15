@@ -6822,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Value" "331"
+		(property "Value" "330"
 			(at 133.35 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7666,5 +7666,4 @@
 			(page "6")
 		)
 	)
-	(embedded_fonts no)
 )
