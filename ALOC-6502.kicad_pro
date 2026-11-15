@@ -683,9 +683,14 @@
         "filename": "crtc.kicad_sch",
         "name": "CRTC",
         "uuid": "c3417104-fce9-4143-9885-45facbfdb109"
+      },
+      {
+        "filename": "misc.kicad_sch",
+        "name": "MISC",
+        "uuid": "f2047e91-fb75-44e7-a7de-e6160924c6bd"
       }
     ],
-    "used_designators": "#PWR1-154,C1-41,D1-10,J1-2,JP1-4,L1-4,Q1-3,R1-21,SW1-2,U1-50,Y1-2",
+    "used_designators": "#PWR1-172,C1-50,D1-12,J1-2,JP1-4,L1-6,Q1-3,R1-25,RV1,SW1-3,U1-51,Y1-2",
     "variants": []
   },
   "sheets": [
@@ -708,6 +713,10 @@
     [
       "c3417104-fce9-4143-9885-45facbfdb109",
       "CRTC"
+    ],
+    [
+      "f2047e91-fb75-44e7-a7de-e6160924c6bd",
+      "MISC"
     ]
   ],
   "text_variables": {},

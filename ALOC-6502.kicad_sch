@@ -4686,132 +4686,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CAP_S_4"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CAP_S_4_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -6.35) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy 1.27 -7.62)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -8.89 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -11110,12 +10984,6 @@
 		(uuid "be982821-3c42-4d90-bcbf-5d6dc0e37ae4")
 	)
 	(junction
-		(at 106.68 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c39f4cc6-6dfc-48fc-869f-a8a28beb686d")
-	)
-	(junction
 		(at 77.47 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -12066,16 +11934,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 31.75) (xy 119.38 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fa1081a-bf1f-49e1-821f-cd816fdecbe2")
-	)
-	(wire
-		(pts
 			(xy 181.61 29.21) (xy 181.61 34.29)
 		)
 		(stroke
@@ -12116,7 +11974,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 46.99) (xy 39.37 46.99)
+			(xy 26.67 46.99) (xy 43.18 46.99)
 		)
 		(stroke
 			(width 0)
@@ -12846,16 +12704,6 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 31.75) (xy 110.49 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "43d33abd-808a-4d88-8395-3e2c6266e7ad")
-	)
-	(wire
-		(pts
 			(xy 266.7 53.34) (xy 271.78 53.34)
 		)
 		(stroke
@@ -12953,16 +12801,6 @@
 			(type default)
 		)
 		(uuid "516f7857-8953-41da-8a75-95b7311984d2")
-	)
-	(wire
-		(pts
-			(xy 106.68 31.75) (xy 106.68 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53cd7ee1-8501-4901-976d-bd19bccea2cf")
 	)
 	(wire
 		(pts
@@ -15114,8 +14952,8 @@
 		)
 		(uuid "000e52de-3d57-413c-bd66-213eb51c0a82")
 	)
-	(label "SOFT_BANK"
-		(at 39.37 46.99 180)
+	(label "SOFT_BANK_SW"
+		(at 43.18 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16026,7 +15864,7 @@
 		)
 		(uuid "d06e81ac-7ad8-4f72-88cf-9f6c0ffe58bb")
 	)
-	(label "SOFT_BANK"
+	(label "SOFT_BANK_SW"
 		(at 190.5 93.98 0)
 		(effects
 			(font
@@ -21989,86 +21827,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:L_Small")
-		(at 113.03 31.75 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d3ed771-3632-4be1-9f79-b039fc392326")
-		(property "Reference" "L1"
-			(at 113.03 26.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 113.03 29.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 113.03 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 113.03 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 113.03 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "2bde6b4f-6c15-4d3a-851d-7be760fdc9b9")
-		)
-		(pin "1"
-			(uuid "6be73820-ec9c-421d-a6af-26dd09d32366")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74HC04")
 		(at 41.91 179.07 0)
 		(unit 7)
@@ -22793,85 +22551,6 @@
 			(project "ALOC-6502"
 				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
 					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GNDREF")
-		(at 106.68 38.1 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90404a66-a0df-46d8-bd63-57d07618f1bd")
-		(property "Reference" "#PWR015"
-			(at 106.68 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 106.6801 41.91 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 106.68 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "461373cc-e7fd-4a35-adcd-15cf04819901")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
-					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -25260,87 +24939,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_4")
-		(lib_id "my_retro_chip:CAP_S")
-		(at 106.68 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c29fb239-4d41-4ff5-b05d-7f4f86752ad7")
-		(property "Reference" "C5"
-			(at 108.204 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 110.744 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 106.68 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "128c213f-a1b9-4ac8-9092-3259027ccd8a")
-		)
-		(pin ""
-			(uuid "132112df-6c92-47ac-a734-805f63ffc408")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "74xx:74LS125")
 		(at 135.89 182.88 0)
 		(unit 4)
@@ -27440,7 +27038,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 106.68 31.75 0)
+		(at 102.87 31.75 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -27450,7 +27048,7 @@
 		(dnp no)
 		(uuid "f8adf104-60cc-4ae9-874f-c701bc55c1c9")
 		(property "Reference" "#PWR013"
-			(at 106.68 35.56 0)
+			(at 102.87 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27461,7 +27059,7 @@
 			)
 		)
 		(property "Value" "VCC1"
-			(at 106.68 27.432 0)
+			(at 102.87 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27471,7 +27069,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 31.75 0)
+			(at 102.87 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27482,7 +27080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 31.75 0)
+			(at 102.87 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27493,7 +27091,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 106.68 31.75 0)
+			(at 102.87 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27668,83 +27266,6 @@
 			(project "ALOC-6502"
 				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 119.38 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "fdfab82a-2474-4945-9bbc-ae49be5102df")
-		(property "Reference" "#PWR08"
-			(at 119.38 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 119.38 27.432 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 119.38 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 119.38 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1a0879d3-3bbf-4b45-b27b-e35af9149817")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
