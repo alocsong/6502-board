@@ -4190,6 +4190,154 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RES_8"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES_8_0_1"
+				(rectangle
+					(start -1.27 -1.905)
+					(end -1.27 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.175)
+					(end 2.54 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.905)
+					(end -1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.175)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES_8_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "my_retro_chip:74HC163"
 			(pin_names
 				(offset 1.016)
@@ -6844,7 +6992,7 @@
 	)
 	(text "AD14需要做分页\n根据软开关的值切换"
 		(exclude_from_sim no)
-		(at 108.458 133.604 0)
+		(at 108.458 135.128 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6967,6 +7115,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58c59fd6-1934-4637-9860-a1b4eaad251d")
+	)
+	(junction
+		(at 113.03 129.54)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6537b5d9-577d-471e-827e-0e11ab654560")
 	)
 	(junction
 		(at 270.51 71.12)
@@ -7741,6 +7895,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 129.54) (xy 138.43 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1150ea62-2df2-4bf5-931f-b27f332eb6c5")
+	)
+	(wire
+		(pts
 			(xy 39.37 29.21) (xy 39.37 172.72)
 		)
 		(stroke
@@ -7758,6 +7922,16 @@
 			(type default)
 		)
 		(uuid "11fce194-2f78-4f0c-a307-7b9f665f66e5")
+	)
+	(wire
+		(pts
+			(xy 113.03 120.65) (xy 113.03 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13a5b085-bfac-4e36-8924-fed431e11325")
 	)
 	(wire
 		(pts
@@ -9341,6 +9515,16 @@
 	)
 	(wire
 		(pts
+			(xy 113.03 128.27) (xy 113.03 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99def092-9bdc-455a-91b1-8ac8b92387fc")
+	)
+	(wire
+		(pts
 			(xy 165.1 82.55) (xy 175.26 82.55)
 		)
 		(stroke
@@ -9671,7 +9855,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 129.54) (xy 138.43 129.54)
+			(xy 107.95 129.54) (xy 113.03 129.54)
 		)
 		(stroke
 			(width 0)
@@ -10669,16 +10853,6 @@
 		)
 		(uuid "0826ac2a-2d70-4b58-895a-c88d1601f53d")
 	)
-	(label "DRD14"
-		(at 107.95 129.54 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c447fb6-54f9-4f9f-a547-68223838730e")
-	)
 	(label "RA6"
 		(at 168.91 78.74 0)
 		(effects
@@ -11523,6 +11697,30 @@
 			)
 		)
 	)
+	(global_label "DRD14"
+		(shape input)
+		(at 107.95 129.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "87d07e63-56fb-44dc-81fa-6d940902acdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 98.7358 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "R_~{W}"
 		(shape input)
 		(at 24.13 15.24 180)
@@ -11655,7 +11853,7 @@
 		(dnp no)
 		(uuid "0168bc29-157b-4c7d-8c08-c225d10d9dab")
 		(property "Reference" "U25"
-			(at 60.5633 90.17 0)
+			(at 60.452 91.44 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14048,6 +14246,84 @@
 			(project "ALOC-6502"
 				(path "/3138fb6a-efab-4937-8633-063bf7478e50"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 113.03 120.65 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e920edb-4860-4969-9599-2bfd8f20cf4b")
+		(property "Reference" "#PWR0154"
+			(at 113.03 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC1"
+			(at 113.03 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 113.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 113.03 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17605723-5a55-49ef-a198-40b54cfc747a")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/3138fb6a-efab-4937-8633-063bf7478e50"
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -17445,6 +17721,86 @@
 		)
 	)
 	(symbol
+		(lib_name "RES_8")
+		(lib_id "my_retro_chip:RES")
+		(at 115.57 124.46 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c6ef49d2-f0b3-407f-9e66-29f8311a1bb2")
+		(property "Reference" "R11"
+			(at 110.998 126.238 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3.3K"
+			(at 115.062 124.714 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 115.57 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5b242a33-51f6-4aea-b04f-e67c3e9767a2")
+		)
+		(pin ""
+			(uuid "3957f9d0-c47d-4e27-bbe2-d0c60149dbe0")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/3138fb6a-efab-4937-8633-063bf7478e50"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC00")
 		(at 261.62 144.78 0)
 		(unit 4)
@@ -19150,7 +19506,7 @@
 		(dnp no)
 		(uuid "fdd4723e-ea23-405c-8087-eb84d1a45726")
 		(property "Reference" "U24"
-			(at 93.98 127 0)
+			(at 89.662 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
