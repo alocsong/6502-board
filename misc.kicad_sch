@@ -3071,7 +3071,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 67.31) (xy 151.13 67.31)
+			(xy 181.61 67.31) (xy 151.13 67.31)
 		)
 		(stroke
 			(width 0)
@@ -3111,7 +3111,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 36.83) (xy 186.69 36.83)
+			(xy 151.13 36.83) (xy 181.61 36.83)
 		)
 		(stroke
 			(width 0)
@@ -3301,7 +3301,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 52.07) (xy 151.13 52.07)
+			(xy 181.61 52.07) (xy 151.13 52.07)
 		)
 		(stroke
 			(width 0)
@@ -3348,6 +3348,16 @@
 			(type default)
 		)
 		(uuid "5210ed36-0ad2-4544-9c28-62b67c277b72")
+	)
+	(wire
+		(pts
+			(xy 124.46 35.56) (xy 124.46 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "571b5af6-a8b9-4592-bcee-49b7e5e0471b")
 	)
 	(wire
 		(pts
@@ -3912,6 +3922,12 @@
 			(uuid "713c10ec-fcd3-48d4-9155-8ade362f6892")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "U51")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "U51")
@@ -3993,6 +4009,12 @@
 			(uuid "cdb32dd1-1930-47e4-b861-ed911d5ef8ee")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "C49")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "C49")
@@ -4074,6 +4096,12 @@
 			(uuid "7d84aa1e-1839-4f85-978d-3f3360f8f5e6")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "C42")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "C42")
@@ -4153,6 +4181,12 @@
 			(uuid "9cbaa01c-c324-438d-a73a-04704325f658")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0158")
@@ -4163,7 +4197,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 186.69 67.31 270)
+		(at 181.61 67.31 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4174,7 +4208,7 @@
 		(fields_autoplaced yes)
 		(uuid "1dedd7fb-93d5-4977-b4bf-1f54d5e88fec")
 		(property "Reference" "#PWR0161"
-			(at 182.88 67.31 0)
+			(at 177.8 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4185,7 +4219,7 @@
 			)
 		)
 		(property "Value" "VCC3"
-			(at 190.5 67.3099 90)
+			(at 185.42 67.3099 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4196,7 +4230,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 67.31 0)
+			(at 181.61 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4207,7 +4241,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 67.31 0)
+			(at 181.61 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4218,7 +4252,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 186.69 67.31 0)
+			(at 181.61 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4232,6 +4266,12 @@
 			(uuid "740b0a36-31cc-4edd-a0a2-08fd88cb7920")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0161")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0161")
@@ -4313,6 +4353,12 @@
 			(uuid "c6791c9d-1c66-4d20-8d21-9e1cfc1fe598")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "C46")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "C46")
@@ -4396,6 +4442,12 @@
 			(uuid "94fa43dc-370f-4e0f-ae68-c5fe82d46d3b")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "SW3")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "SW3")
@@ -4476,6 +4528,12 @@
 			(uuid "2c583ce0-9dd6-4d20-a7fc-ffe075cc2e98")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "L5")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "L5")
@@ -4556,6 +4614,12 @@
 			(uuid "55f47292-aa62-4be6-8bdf-8e9e1dfff3e4")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "L6")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "L6")
@@ -4637,6 +4701,12 @@
 			(uuid "7ffc0064-bb17-4991-ac29-86ae312aa889")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "C50")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "C50")
@@ -4717,6 +4787,12 @@
 			(uuid "552fc3cc-3743-4e03-be60-c08230ca1c07")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "R25")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "R25")
@@ -4727,7 +4803,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 186.69 36.83 270)
+		(at 181.61 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4738,7 +4814,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ee4c2b2-d3ba-4978-9f82-0609185d0aa0")
 		(property "Reference" "#PWR0126"
-			(at 182.88 36.83 0)
+			(at 177.8 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4749,7 +4825,7 @@
 			)
 		)
 		(property "Value" "VCC1"
-			(at 190.5 36.8299 90)
+			(at 185.42 36.8299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4760,7 +4836,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 36.83 0)
+			(at 181.61 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4771,7 +4847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 36.83 0)
+			(at 181.61 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4782,7 +4858,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 186.69 36.83 0)
+			(at 181.61 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4796,6 +4872,12 @@
 			(uuid "87140a0a-d696-49bd-a9f7-6e640b402d54")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0126")
@@ -4875,6 +4957,12 @@
 			(uuid "a870cb24-d6ae-4d3e-b0d5-b2261a079191")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0171")
@@ -4953,6 +5041,12 @@
 			(uuid "0ca5a73e-f2c6-4407-b993-3609285fc6ce")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR08")
@@ -5032,6 +5126,12 @@
 			(uuid "48e63ca5-e4aa-4a62-ae42-77deb4698c6e")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "R12")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "R12")
@@ -5111,6 +5211,12 @@
 			(uuid "94e4b48b-4df9-45b6-babc-1e08c6b9b34d")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "R23")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "R23")
@@ -5192,6 +5298,12 @@
 			(uuid "243a6482-3a2a-4cfe-a9a5-be23a0666468")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "C43")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "C43")
@@ -5271,6 +5383,12 @@
 			(uuid "31f28c66-8bae-4f5b-96ef-2000e3fbbf27")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0165")
@@ -5389,6 +5507,12 @@
 			(uuid "0eba4d8c-1d88-40ed-bc9b-5040422f5596")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "RV1")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "RV1")
@@ -5468,6 +5592,12 @@
 			(uuid "acedd84d-88d0-4126-b264-a60292483568")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0163")
@@ -5547,6 +5677,12 @@
 			(uuid "94928166-a78c-411c-9069-e6863c265481")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0170")
@@ -5626,6 +5762,12 @@
 			(uuid "1c21ee77-ed0d-42d2-b4ca-ea70ad82814d")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0166")
@@ -5705,6 +5847,12 @@
 			(uuid "37da6dd7-fae2-4290-8ec8-2a23fac2f452")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0162")
@@ -5784,6 +5932,12 @@
 			(uuid "7f1fce5e-0c6c-466b-aebe-a8278ea792b9")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "D12")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "D12")
@@ -5863,6 +6017,12 @@
 			(uuid "cf0880ec-e6ac-40fd-a9b2-c59c21bffdc2")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0169")
@@ -5942,6 +6102,12 @@
 			(uuid "7ecd8228-b764-4f3c-887b-a461edb98b79")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0155")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0155")
@@ -6022,6 +6188,12 @@
 			(uuid "0d4b8aea-2d81-493d-9db3-f226dc4f03b3")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "L3")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "L3")
@@ -6102,6 +6274,12 @@
 			(uuid "ccb0fd03-7a73-46d9-91c8-dd1b90a58e9b")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "R24")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "R24")
@@ -6181,6 +6359,12 @@
 			(uuid "6a2cf3a4-3c47-4957-9b96-38dbadcac99e")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0159")
@@ -6261,6 +6445,12 @@
 			(uuid "6891a730-dc03-466e-a8ff-95d9e2a0c105")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "L4")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "L4")
@@ -6340,6 +6530,12 @@
 			(uuid "833a16b5-ef3e-4941-9a17-41bbe57526e6")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0160")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0160")
@@ -6350,7 +6546,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 124.46 36.83 0)
+		(at 124.46 35.56 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -6362,7 +6558,7 @@
 		(fields_autoplaced yes)
 		(uuid "b786d260-e9e0-43c3-b1ec-e615339835bd")
 		(property "Reference" "#PWR0125"
-			(at 124.46 40.64 0)
+			(at 124.46 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6373,7 +6569,7 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 124.46 31.75 0)
+			(at 124.46 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6383,7 +6579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 36.83 0)
+			(at 124.46 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6394,7 +6590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 124.46 36.83 0)
+			(at 124.46 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6405,7 +6601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 124.46 36.83 0)
+			(at 124.46 35.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6419,6 +6615,12 @@
 			(uuid "2ae638f3-ba07-47a2-9ba3-5733524904f5")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0125")
@@ -6500,6 +6702,12 @@
 			(uuid "753638a9-ba5e-4ca5-845c-38b54baa79d3")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "C45")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "C45")
@@ -6579,6 +6787,12 @@
 			(uuid "c23f462b-e198-4042-bbe8-2d91b67fdd3a")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0164")
@@ -6608,7 +6822,7 @@
 				)
 			)
 		)
-		(property "Value" "330"
+		(property "Value" "331"
 			(at 133.35 46.99 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6658,6 +6872,12 @@
 			(uuid "b1d363da-4b21-425d-abf8-a76218101e1b")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "R1")
@@ -6739,6 +6959,12 @@
 			(uuid "50f3f0ce-6675-4d0a-aa78-8a3c1d4a97b2")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "C29")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "C29")
@@ -6820,6 +7046,12 @@
 			(uuid "64c541b0-90ee-4fde-aef1-8f6ecb7ceb54")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "D11")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "D11")
@@ -6899,6 +7131,12 @@
 			(uuid "d9f8e2e6-2584-4fe3-8394-a03a5099c169")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "R22")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "R22")
@@ -6909,7 +7147,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 186.69 52.07 270)
+		(at 181.61 52.07 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6920,7 +7158,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6a5944c-e844-48f8-af2f-56f95f6996b7")
 		(property "Reference" "#PWR0157"
-			(at 182.88 52.07 0)
+			(at 177.8 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6931,7 +7169,7 @@
 			)
 		)
 		(property "Value" "VCC2"
-			(at 190.5 52.0699 90)
+			(at 185.42 52.0699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6942,7 +7180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 186.69 52.07 0)
+			(at 181.61 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6953,7 +7191,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 52.07 0)
+			(at 181.61 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6964,7 +7202,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 186.69 52.07 0)
+			(at 181.61 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6978,6 +7216,12 @@
 			(uuid "04c11ac0-28a8-4c9a-a19b-17b86f4ba18d")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0157")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0157")
@@ -7059,6 +7303,12 @@
 			(uuid "235af78f-7372-42c7-b751-9724b6127608")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "C44")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "C44")
@@ -7138,6 +7388,12 @@
 			(uuid "6f9ec565-4177-4e96-b885-ad353adb9d6b")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0172")
@@ -7219,6 +7475,12 @@
 			(uuid "f3d07db2-2228-48bc-bba2-8177c3db880c")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "C48")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "C48")
@@ -7300,6 +7562,12 @@
 			(uuid "e094f954-e6e1-40f2-8fcc-ae36ad487dcd")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "C47")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "C47")
@@ -7379,6 +7647,12 @@
 			(uuid "6f7c7fcd-79ff-48d0-882e-601c4da8c1fd")
 		)
 		(instances
+			(project "misc"
+				(path "/390ae494-6a68-429c-b06e-1cc949258ad4"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+			)
 			(project "ALOC-6502"
 				(path "/f2047e91-fb75-44e7-a7de-e6160924c6bd"
 					(reference "#PWR0123")
@@ -7392,4 +7666,5 @@
 			(page "6")
 		)
 	)
+	(embedded_fonts no)
 )
