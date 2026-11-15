@@ -5435,7 +5435,7 @@
 		(uuid "4c6a3b43-3550-4e44-9a00-09d4f8927049")
 	)
 	(junction
-		(at 199.39 96.52)
+		(at 196.85 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "510eb76b-4650-4ee6-ba66-e96531c4be78")
@@ -5511,6 +5511,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c32afe2c-6062-41e4-9f9b-7e513f717bb9")
+	)
+	(junction
+		(at 194.31 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce921073-7481-4b0e-9f97-f9b2f7c8bbf8")
 	)
 	(junction
 		(at 53.34 123.19)
@@ -5746,7 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 96.52) (xy 199.39 96.52)
+			(xy 189.23 96.52) (xy 196.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6056,7 +6062,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 101.6) (xy 191.77 101.6)
+			(xy 191.77 101.6) (xy 189.23 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6106,7 +6112,7 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 106.68) (xy 196.85 91.44)
+			(xy 194.31 106.68) (xy 194.31 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6276,7 +6282,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 81.28) (xy 194.31 81.28)
+			(xy 91.44 81.28) (xy 191.77 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6396,7 +6402,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 91.44) (xy 208.28 91.44)
+			(xy 176.53 91.44) (xy 194.31 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6406,7 +6412,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 81.28) (xy 199.39 81.28)
+			(xy 208.28 81.28) (xy 196.85 81.28)
 		)
 		(stroke
 			(width 0)
@@ -6466,7 +6472,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 109.22) (xy 199.39 109.22)
+			(xy 173.99 109.22) (xy 196.85 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6486,7 +6492,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 106.68) (xy 176.53 109.22)
+			(xy 173.99 106.68) (xy 173.99 109.22)
 		)
 		(stroke
 			(width 0)
@@ -6593,6 +6599,16 @@
 			(type default)
 		)
 		(uuid "86a26e8c-bddc-4f35-b471-3c432041da13")
+	)
+	(wire
+		(pts
+			(xy 194.31 91.44) (xy 208.28 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87965ba9-4761-4622-92aa-39754d21fd33")
 	)
 	(wire
 		(pts
@@ -6736,7 +6752,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 106.68) (xy 196.85 106.68)
+			(xy 189.23 106.68) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6806,7 +6822,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 81.28) (xy 199.39 96.52)
+			(xy 196.85 81.28) (xy 196.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6846,7 +6862,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 81.28) (xy 194.31 101.6)
+			(xy 191.77 81.28) (xy 191.77 101.6)
 		)
 		(stroke
 			(width 0)
@@ -6916,7 +6932,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 91.44) (xy 176.53 101.6)
+			(xy 173.99 91.44) (xy 173.99 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7046,7 +7062,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 101.6) (xy 181.61 101.6)
+			(xy 173.99 101.6) (xy 179.07 101.6)
 		)
 		(stroke
 			(width 0)
@@ -7086,7 +7102,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 96.52) (xy 181.61 96.52)
+			(xy 176.53 96.52) (xy 179.07 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7106,7 +7122,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 91.44) (xy 179.07 96.52)
+			(xy 176.53 91.44) (xy 176.53 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7166,7 +7182,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 91.44) (xy 176.53 91.44)
+			(xy 91.44 91.44) (xy 173.99 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7276,7 +7292,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 109.22) (xy 199.39 96.52)
+			(xy 196.85 109.22) (xy 196.85 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7306,7 +7322,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 106.68) (xy 176.53 106.68)
+			(xy 179.07 106.68) (xy 173.99 106.68)
 		)
 		(stroke
 			(width 0)
@@ -8057,6 +8073,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "#PWR0121")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8139,11 +8161,17 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "C40")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
 		(lib_id "Switch:SW_Slide_DPDT")
-		(at 186.69 101.6 0)
+		(at 184.15 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8153,7 +8181,7 @@
 		(dnp no)
 		(uuid "0895d87e-3213-425f-9baf-a6c40f4376aa")
 		(property "Reference" "SW2"
-			(at 188.722 93.98 0)
+			(at 186.182 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8164,7 +8192,7 @@
 			)
 		)
 		(property "Value" "R/CTS"
-			(at 189.992 110.998 0)
+			(at 187.452 110.998 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8175,7 +8203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 200.66 96.52 0)
+			(at 198.12 96.52 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8186,7 +8214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 186.69 101.6 0)
+			(at 184.15 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8197,7 +8225,7 @@
 			)
 		)
 		(property "Description" "Slide Switch, dual pole double throw"
-			(at 186.69 101.6 0)
+			(at 184.15 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8228,6 +8256,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "SW2")
 					(unit 1)
 				)
@@ -8318,6 +8352,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "D8")
 					(unit 1)
 				)
@@ -8439,6 +8479,12 @@
 					(unit 6)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U47")
+					(unit 6)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8516,6 +8562,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "C30")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "C30")
 					(unit 1)
 				)
@@ -8637,6 +8689,12 @@
 					(unit 2)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U48")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8710,6 +8768,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0132")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0132")
 					(unit 1)
 				)
@@ -8830,6 +8894,12 @@
 					(unit 2)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U47")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8907,6 +8977,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "R20")
 					(unit 1)
 				)
@@ -9028,6 +9104,12 @@
 					(unit 4)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U47")
+					(unit 4)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9103,6 +9185,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0151")
 					(unit 1)
 				)
@@ -9186,6 +9274,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9263,6 +9357,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "C31")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "C31")
 					(unit 1)
 				)
@@ -9393,6 +9493,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U44")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9466,6 +9572,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0127")
 					(unit 1)
 				)
@@ -9549,6 +9661,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9624,6 +9742,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0145")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0145")
 					(unit 1)
 				)
@@ -9705,6 +9829,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9780,6 +9910,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0138")
 					(unit 1)
 				)
@@ -9865,6 +10001,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "C32")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9940,6 +10082,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -10035,6 +10183,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "D5")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10125,6 +10279,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "D9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10202,6 +10362,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "C37")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "C37")
 					(unit 1)
 				)
@@ -10323,6 +10489,12 @@
 					(unit 5)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U47")
+					(unit 5)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10402,6 +10574,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10477,6 +10655,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0137")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0137")
 					(unit 1)
 				)
@@ -10597,6 +10781,12 @@
 					(unit 3)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U47")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10677,6 +10867,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "C34")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10752,6 +10948,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0153")
 					(unit 1)
 				)
@@ -10873,6 +11075,12 @@
 					(unit 7)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U47")
+					(unit 7)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10946,6 +11154,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0141")
 					(unit 1)
 				)
@@ -11066,6 +11280,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U47")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11141,6 +11361,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0150")
 					(unit 1)
 				)
@@ -11221,6 +11447,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "R18")
 					(unit 1)
 				)
@@ -11307,6 +11539,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "C39")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11388,6 +11626,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "R21")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11461,6 +11705,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0148")
 					(unit 1)
 				)
@@ -11544,6 +11794,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11617,6 +11873,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0149")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0149")
 					(unit 1)
 				)
@@ -11702,6 +11964,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "C33")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11777,6 +12045,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0152")
 					(unit 1)
 				)
@@ -11898,6 +12172,12 @@
 					(unit 2)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U50")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12000,6 +12280,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12077,6 +12363,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "C36")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "C36")
 					(unit 1)
 				)
@@ -12171,6 +12463,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "D10")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12248,6 +12546,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "C35")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "C35")
 					(unit 1)
 				)
@@ -12331,6 +12635,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "#PWR0129")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12406,6 +12716,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0142")
 					(unit 1)
 				)
@@ -12488,6 +12804,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "C38")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "C38")
 					(unit 1)
 				)
@@ -12609,6 +12931,12 @@
 					(unit 2)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U49")
+					(unit 2)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12685,6 +13013,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "R16")
 					(unit 1)
 				)
@@ -12806,6 +13140,12 @@
 					(unit 3)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U50")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12879,6 +13219,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0146")
 					(unit 1)
 				)
@@ -12962,6 +13308,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13037,6 +13389,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0144")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0144")
 					(unit 1)
 				)
@@ -13132,6 +13490,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "D7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13213,6 +13577,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "R19")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13288,6 +13658,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0136")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0136")
 					(unit 1)
 				)
@@ -13409,6 +13785,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U49")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13484,6 +13866,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0143")
 					(unit 1)
 				)
@@ -13684,6 +14072,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U35")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13757,6 +14151,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0128")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0128")
 					(unit 1)
 				)
@@ -13878,6 +14278,12 @@
 					(unit 3)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U48")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13995,6 +14401,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U50")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14071,6 +14483,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "R17")
 					(unit 1)
 				)
@@ -14192,6 +14610,12 @@
 					(unit 3)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U49")
+					(unit 3)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14267,6 +14691,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0135")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0135")
 					(unit 1)
 				)
@@ -14362,6 +14792,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14437,6 +14873,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0131")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0131")
 					(unit 1)
 				)
@@ -14558,6 +15000,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "U48")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14636,6 +15084,12 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "C41")
+					(unit 1)
+				)
+			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "C41")
 					(unit 1)
 				)
@@ -14719,6 +15173,12 @@
 					(unit 1)
 				)
 			)
+			(project "io"
+				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -14726,4 +15186,5 @@
 			(page "4")
 		)
 	)
+	(embedded_fonts no)
 )
