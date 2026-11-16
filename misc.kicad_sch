@@ -1013,132 +1013,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "CAP_S_9"
-			(pin_names
-				(offset 1.016)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CAP_S_9_1_1"
-				(polyline
-					(pts
-						(xy -1.27 -6.35) (xy 1.27 -6.35)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -7.62) (xy 1.27 -7.62)
-					)
-					(stroke
-						(width 0.381)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -8.89 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:Barrel_Jack_Switch"
 			(pin_names
 				(hide yes)
@@ -4251,6 +4125,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "my_retro_chip:CAP_S"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_S_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "mylib-aloc:RES"
 			(pin_names
 				(offset 1.016)
@@ -6682,7 +6682,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_4")
+		(lib_name "CAP_S_1")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 180.34 43.18 0)
 		(unit 1)
@@ -6769,7 +6769,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_8")
+		(lib_name "CAP_S_3")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 74.93 25.4 0)
 		(unit 1)
@@ -6941,7 +6941,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_7")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 113.03 25.4 0)
 		(unit 1)
@@ -7210,7 +7209,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_2")
+		(lib_name "CAP_S_4")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 163.83 25.4 0)
 		(unit 1)
@@ -7898,7 +7897,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_2")
+		(lib_name "RES_1")
 		(lib_id "mylib-aloc:RES")
 		(at 67.31 49.53 180)
 		(unit 1)
@@ -8513,7 +8512,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_3")
+		(lib_name "RES_2")
 		(lib_id "mylib-aloc:RES")
 		(at 144.78 43.18 0)
 		(unit 1)
@@ -9243,7 +9242,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_9")
+		(lib_name "CAP_S_2")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 123.19 25.4 0)
 		(unit 1)
@@ -10186,7 +10185,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_1")
+		(lib_name "RES_6")
 		(lib_id "mylib-aloc:RES")
 		(at 123.19 43.18 0)
 		(unit 1)
@@ -10612,7 +10611,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_6")
+		(lib_name "CAP_S_7")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 86.36 54.61 0)
 		(unit 1)
@@ -11039,7 +11038,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_4")
+		(lib_name "RES_3")
 		(lib_id "mylib-aloc:RES")
 		(at 41.91 53.34 270)
 		(unit 1)
@@ -11125,7 +11124,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_5")
+		(lib_name "RES_4")
 		(lib_id "mylib-aloc:RES")
 		(at 161.29 49.53 0)
 		(unit 1)
@@ -11641,7 +11640,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_1")
+		(lib_name "CAP_S_6")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 180.34 57.15 0)
 		(unit 1)
@@ -11728,7 +11727,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_6")
+		(lib_name "RES_5")
 		(lib_id "mylib-aloc:RES")
 		(at 161.29 63.5 0)
 		(unit 1)
@@ -11899,7 +11898,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_3")
+		(lib_name "CAP_S_8")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 146.05 57.15 0)
 		(unit 1)
@@ -12160,5 +12159,4 @@
 			(page "6")
 		)
 	)
-	(embedded_fonts no)
 )

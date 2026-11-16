@@ -8180,7 +8180,7 @@
 				)
 			)
 			(pin input line
-				(at -16.51 -27.94 0)
+				(at 16.51 -30.48 180)
 				(length 2.54)
 				(name "IP1/~{CTSBN}"
 					(effects
@@ -8324,7 +8324,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -27.94 180)
+				(at 16.51 -26.67 180)
 				(length 2.54)
 				(name "OP1/~{RTSBN}"
 					(effects
@@ -8342,7 +8342,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -33.02 180)
+				(at 16.51 -35.56 180)
 				(length 2.54)
 				(name "OP3/CLKB"
 					(effects
@@ -8360,7 +8360,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -38.1 180)
+				(at 16.51 -40.64 180)
 				(length 2.54)
 				(name "OP5/~{RxRDYB}"
 					(effects
@@ -8378,7 +8378,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -43.18 180)
+				(at 16.51 -45.72 180)
 				(length 2.54)
 				(name "OP7/~{TxRDYB}"
 					(effects
@@ -8576,7 +8576,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -40.64 180)
+				(at 16.51 -43.18 180)
 				(length 2.54)
 				(name "OP6/~{TxRDYA}"
 					(effects
@@ -8594,7 +8594,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -35.56 180)
+				(at 16.51 -38.1 180)
 				(length 2.54)
 				(name "OP4/~{RxRDYA}"
 					(effects
@@ -8612,7 +8612,7 @@
 				)
 			)
 			(pin output line
-				(at 16.51 -30.48 180)
+				(at 16.51 -33.02 180)
 				(length 2.54)
 				(name "OP2/CLKA"
 					(effects
