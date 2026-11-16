@@ -6769,7 +6769,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_3")
+		(lib_name "CAP_S_5")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 74.93 25.4 0)
 		(unit 1)
@@ -6941,6 +6941,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CAP_S_2")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 113.03 25.4 0)
 		(unit 1)
@@ -7209,7 +7210,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_4")
+		(lib_name "CAP_S_3")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 163.83 25.4 0)
 		(unit 1)
@@ -7725,7 +7726,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_5")
+		(lib_name "CAP_S_4")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 128.27 55.88 0)
 		(unit 1)
@@ -9242,7 +9243,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_2")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 123.19 25.4 0)
 		(unit 1)
@@ -10185,7 +10185,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_6")
+		(lib_name "RES_4")
 		(lib_id "mylib-aloc:RES")
 		(at 123.19 43.18 0)
 		(unit 1)
@@ -11124,7 +11124,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_4")
+		(lib_name "RES_6")
 		(lib_id "mylib-aloc:RES")
 		(at 161.29 49.53 0)
 		(unit 1)

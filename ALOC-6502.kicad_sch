@@ -17676,7 +17676,6 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_1")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 73.66 55.88 90)
 		(unit 1)
@@ -19483,7 +19482,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_2")
+		(lib_name "CAP_S_1")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 161.29 81.28 270)
 		(unit 1)
@@ -20093,7 +20092,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_6")
+		(lib_name "RES_8")
 		(lib_id "my_retro_chip:RES")
 		(at 30.48 135.89 270)
 		(unit 1)
@@ -20469,7 +20468,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_7")
+		(lib_name "RES_6")
 		(lib_id "my_retro_chip:RES")
 		(at 171.45 149.86 270)
 		(unit 1)
@@ -20877,7 +20876,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_8")
+		(lib_name "RES_7")
 		(lib_id "my_retro_chip:RES")
 		(at 265.43 88.9 90)
 		(unit 1)
@@ -21391,7 +21390,7 @@
 		)
 	)
 	(symbol
-		(lib_name "CAP_S_3")
+		(lib_name "CAP_S_2")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 185.42 25.4 0)
 		(unit 1)
@@ -21551,6 +21550,7 @@
 		)
 	)
 	(symbol
+		(lib_name "CAP_S_3")
 		(lib_id "my_retro_chip:CAP_S")
 		(at 152.4 29.21 0)
 		(unit 1)
@@ -23306,6 +23306,7 @@
 		)
 	)
 	(symbol
+		(lib_name "RES_2")
 		(lib_id "my_retro_chip:RES")
 		(at 34.29 96.52 270)
 		(unit 1)
@@ -23583,7 +23584,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_2")
+		(lib_name "RES_1")
 		(lib_id "my_retro_chip:RES")
 		(at 38.1 96.52 270)
 		(unit 1)
@@ -23746,7 +23747,7 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_1")
+		(lib_name "RES_3")
 		(lib_id "my_retro_chip:RES")
 		(at 275.59 88.9 90)
 		(unit 1)
@@ -25457,7 +25458,6 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_3")
 		(lib_id "my_retro_chip:RES")
 		(at 30.48 96.52 270)
 		(unit 1)
