@@ -6611,6 +6611,154 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "RES_19"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES_19_0_1"
+				(rectangle
+					(start -1.27 -1.905)
+					(end -1.27 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.175)
+					(end 2.54 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.905)
+					(end -1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.175)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES_19_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "RES_2"
 			(pin_names
 				(offset 1.016)
@@ -6720,6 +6868,746 @@
 				)
 			)
 			(symbol "RES_2_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RES_20"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES_20_0_1"
+				(rectangle
+					(start -1.27 -1.905)
+					(end -1.27 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.175)
+					(end 2.54 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.905)
+					(end -1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.175)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES_20_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RES_21"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES_21_0_1"
+				(rectangle
+					(start -1.27 -1.905)
+					(end -1.27 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.175)
+					(end 2.54 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.905)
+					(end -1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.175)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES_21_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RES_22"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES_22_0_1"
+				(rectangle
+					(start -1.27 -1.905)
+					(end -1.27 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.175)
+					(end 2.54 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.905)
+					(end -1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.175)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES_22_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RES_25"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES_25_0_1"
+				(rectangle
+					(start -1.27 -1.905)
+					(end -1.27 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.175)
+					(end 2.54 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.905)
+					(end -1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.175)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES_25_1_1"
+				(pin passive line
+					(at -2.54 -2.54 0)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -2.54 180)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "RES_26"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RES_26_0_1"
+				(rectangle
+					(start -1.27 -1.905)
+					(end -1.27 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -3.175)
+					(end 2.54 -3.175)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -1.905)
+					(end -1.27 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 -3.175)
+					(end 2.54 -1.905)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RES_26_1_1"
 				(pin passive line
 					(at -2.54 -2.54 0)
 					(length 1.27)
@@ -7788,6 +8676,492 @@
 						(effects
 							(font
 								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:S8050"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "S8050"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "S8050 NPN Low Voltage High Current Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "S8050_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "S8050_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Transistor_BJT:S8550"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "S8550"
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 5.08 -1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8550.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "PNP"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=E 2=B 3=C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "S8550 PNP Low Voltage High Current Transistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "S8550_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "S8550_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -10184,7 +11558,7 @@
 	)
 	(text "RED"
 		(exclude_from_sim no)
-		(at 140.97 160.528 0)
+		(at 140.97 159.258 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10244,6 +11618,12 @@
 		(uuid "044430d4-a5db-4924-8719-6c7cc39f1e25")
 	)
 	(junction
+		(at 142.24 168.91)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09db255f-be51-4315-89e5-6e756a7717d4")
+	)
+	(junction
 		(at 228.6 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10254,6 +11634,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e103022-f725-4bc7-995f-652ce495538e")
+	)
+	(junction
+		(at 151.13 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e99c99c-67d4-4dc7-b3f7-8e18b405483f")
 	)
 	(junction
 		(at 160.02 121.92)
@@ -10328,6 +11714,12 @@
 		(uuid "470a502d-963e-496c-b056-8ee2fc0ded53")
 	)
 	(junction
+		(at 166.37 193.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4ca5d6b8-97cf-4775-b70b-d6d9fab682c1")
+	)
+	(junction
 		(at 245.11 154.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -10394,19 +11786,25 @@
 		(uuid "885cc5ea-603b-4c91-9c5c-0260da8ee67f")
 	)
 	(junction
+		(at 142.24 177.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8f277095-9bd2-49db-a9c2-fedad7ada9b9")
+	)
+	(junction
 		(at 149.86 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9002373d-f639-460b-924f-5240f55500c6")
 	)
 	(junction
-		(at 68.58 147.32)
+		(at 68.58 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91542799-6184-4ea1-92fe-fb0c2891cc26")
 	)
 	(junction
-		(at 68.58 138.43)
+		(at 68.58 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "98af1831-e05e-460e-8eac-fbf7bf88c4a5")
@@ -10430,7 +11828,7 @@
 		(uuid "a81fa581-badd-44e1-84cf-34686471ea46")
 	)
 	(junction
-		(at 68.58 156.21)
+		(at 68.58 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b121d674-0d14-4b47-a648-c3904e6fbae2")
@@ -10494,6 +11892,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f0333232-53a2-40ba-87ab-270b7e29cdc6")
+	)
+	(junction
+		(at 116.84 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f766f7a8-154c-42f5-aa6c-b0d9cae39c5e")
 	)
 	(junction
 		(at 246.38 107.95)
@@ -10617,7 +12021,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 156.21) (xy 86.36 156.21)
+			(xy 91.44 152.4) (xy 86.36 152.4)
 		)
 		(stroke
 			(width 0)
@@ -10718,13 +12122,23 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 147.32) (xy 86.36 147.32)
+			(xy 91.44 143.51) (xy 86.36 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0a500a42-ade8-45ef-a481-1e61808a36ea")
+	)
+	(wire
+		(pts
+			(xy 116.84 77.47) (xy 208.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a921dcd-e6b3-4fe3-a7dc-285c60165460")
 	)
 	(wire
 		(pts
@@ -10808,6 +12222,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 193.04) (xy 157.48 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ff7d1de-7679-4fa4-add1-827acaeb2f7a")
+	)
+	(wire
+		(pts
 			(xy 228.6 95.25) (xy 228.6 96.52)
 		)
 		(stroke
@@ -10835,6 +12259,16 @@
 			(type default)
 		)
 		(uuid "1061d19f-9b1c-464f-87d4-0b34282adac3")
+	)
+	(wire
+		(pts
+			(xy 146.05 193.04) (xy 151.13 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "123f626a-bd36-4891-afc1-1f12fea1c4ad")
 	)
 	(wire
 		(pts
@@ -10928,6 +12362,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 168.91) (xy 135.89 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f35ee1e-0068-49ff-ae7c-21df5fc3b6d3")
+	)
+	(wire
+		(pts
 			(xy 121.92 146.05) (xy 124.46 146.05)
 		)
 		(stroke
@@ -10938,7 +12382,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 147.32) (xy 71.12 147.32)
+			(xy 68.58 143.51) (xy 71.12 143.51)
 		)
 		(stroke
 			(width 0)
@@ -10975,6 +12419,16 @@
 			(type default)
 		)
 		(uuid "22452b71-6adc-46ec-a0f6-b92f34448bd0")
+	)
+	(wire
+		(pts
+			(xy 151.13 193.04) (xy 151.13 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23181bf2-73f5-4dd6-a5c0-f62cd0e35d2d")
 	)
 	(wire
 		(pts
@@ -11038,7 +12492,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 158.75) (xy 172.72 158.75)
+			(xy 157.48 157.48) (xy 172.72 157.48)
 		)
 		(stroke
 			(width 0)
@@ -11058,7 +12512,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 138.43) (xy 71.12 138.43)
+			(xy 68.58 134.62) (xy 71.12 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11068,7 +12522,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 147.32) (xy 50.8 147.32)
+			(xy 45.72 143.51) (xy 50.8 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11218,7 +12672,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 156.21) (xy 58.42 156.21)
+			(xy 57.15 152.4) (xy 58.42 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11288,7 +12742,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 147.32) (xy 113.03 147.32)
+			(xy 106.68 143.51) (xy 113.03 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11298,7 +12752,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 158.75) (xy 132.08 158.75)
+			(xy 130.81 157.48) (xy 132.08 157.48)
 		)
 		(stroke
 			(width 0)
@@ -11308,7 +12762,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 156.21) (xy 30.48 156.21)
+			(xy 24.13 152.4) (xy 30.48 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11418,6 +12872,16 @@
 	)
 	(wire
 		(pts
+			(xy 156.21 184.15) (xy 166.37 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43fd7314-db6b-45f8-bbe5-c7f6e97503e4")
+	)
+	(wire
+		(pts
 			(xy 132.08 22.86) (xy 138.43 22.86)
 		)
 		(stroke
@@ -11468,7 +12932,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 156.21) (xy 71.12 156.21)
+			(xy 68.58 152.4) (xy 71.12 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11495,6 +12959,16 @@
 			(type default)
 		)
 		(uuid "48ce3ae6-e93d-45e3-b567-fd6b3defa4c7")
+	)
+	(wire
+		(pts
+			(xy 166.37 193.04) (xy 167.64 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ba7192a-242d-4ea8-bc84-c592eee63714")
 	)
 	(wire
 		(pts
@@ -11568,7 +13042,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 156.21) (xy 78.74 156.21)
+			(xy 80.01 152.4) (xy 78.74 152.4)
 		)
 		(stroke
 			(width 0)
@@ -11585,6 +13059,16 @@
 			(type default)
 		)
 		(uuid "54c24395-4be6-4b00-9a9e-168f671eac4c")
+	)
+	(wire
+		(pts
+			(xy 116.84 77.47) (xy 116.84 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54cba7f2-000d-4414-9750-3244bf313da3")
 	)
 	(wire
 		(pts
@@ -11638,7 +13122,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 138.43) (xy 68.58 147.32)
+			(xy 68.58 134.62) (xy 68.58 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11658,7 +13142,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 138.43) (xy 50.8 138.43)
+			(xy 45.72 134.62) (xy 50.8 134.62)
 		)
 		(stroke
 			(width 0)
@@ -11688,7 +13172,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 77.47) (xy 208.28 77.47)
+			(xy 91.44 77.47) (xy 116.84 77.47)
 		)
 		(stroke
 			(width 0)
@@ -11958,7 +13442,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 158.75) (xy 172.72 143.51)
+			(xy 172.72 157.48) (xy 172.72 143.51)
 		)
 		(stroke
 			(width 0)
@@ -11978,13 +13462,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 138.43) (xy 113.03 138.43)
+			(xy 106.68 134.62) (xy 113.03 134.62)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "81245f9f-fdeb-4981-bf39-75c70e680e35")
+	)
+	(wire
+		(pts
+			(xy 144.78 184.15) (xy 146.05 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "812643c3-e80f-4325-87c5-a6369e4bca0d")
 	)
 	(wire
 		(pts
@@ -12008,6 +13502,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 193.04) (xy 166.37 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84fa1721-83f1-43cc-97bc-0a58a3f46ae3")
+	)
+	(wire
+		(pts
 			(xy 46.99 106.68) (xy 53.34 106.68)
 		)
 		(stroke
@@ -12018,7 +13522,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 138.43) (xy 68.58 138.43)
+			(xy 66.04 134.62) (xy 68.58 134.62)
 		)
 		(stroke
 			(width 0)
@@ -12098,6 +13602,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 168.91) (xy 151.13 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c95f3f7-6c8c-40e4-a497-aa6296a7ba3c")
+	)
+	(wire
+		(pts
 			(xy 138.43 128.27) (xy 194.31 128.27)
 		)
 		(stroke
@@ -12148,7 +13662,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 156.21) (xy 68.58 156.21)
+			(xy 66.04 152.4) (xy 68.58 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12208,7 +13722,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 147.32) (xy 78.74 147.32)
+			(xy 80.01 143.51) (xy 78.74 143.51)
 		)
 		(stroke
 			(width 0)
@@ -12288,7 +13802,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 147.32) (xy 68.58 156.21)
+			(xy 142.24 176.53) (xy 142.24 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b88cb39-bb75-4a11-a1a1-c9b87a50b818")
+	)
+	(wire
+		(pts
+			(xy 68.58 143.51) (xy 68.58 152.4)
 		)
 		(stroke
 			(width 0)
@@ -12378,6 +13902,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 177.8) (xy 146.05 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4279a63-f998-4fc8-bbaa-df7885d8d6b0")
+	)
+	(wire
+		(pts
 			(xy 109.22 36.83) (xy 109.22 48.26)
 		)
 		(stroke
@@ -12398,7 +13932,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 147.32) (xy 68.58 147.32)
+			(xy 66.04 143.51) (xy 68.58 143.51)
 		)
 		(stroke
 			(width 0)
@@ -12418,7 +13952,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 158.75) (xy 142.24 158.75)
+			(xy 139.7 157.48) (xy 142.24 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12468,7 +14002,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 146.05) (xy 121.92 158.75)
+			(xy 121.92 146.05) (xy 121.92 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12488,7 +14022,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 138.43) (xy 86.36 138.43)
+			(xy 171.45 177.8) (xy 170.18 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aded2119-42f4-4ce7-bc89-5855256cf258")
+	)
+	(wire
+		(pts
+			(xy 91.44 134.62) (xy 86.36 134.62)
 		)
 		(stroke
 			(width 0)
@@ -12548,7 +14092,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 158.75) (xy 124.46 158.75)
+			(xy 121.92 157.48) (xy 124.46 157.48)
 		)
 		(stroke
 			(width 0)
@@ -12626,6 +14170,16 @@
 			(type default)
 		)
 		(uuid "b8c612a0-d1dc-417d-a92e-56f573c71e0b")
+	)
+	(wire
+		(pts
+			(xy 166.37 184.15) (xy 166.37 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba2f1907-604c-4d3a-b074-765cc7bb0755")
 	)
 	(wire
 		(pts
@@ -12759,7 +14313,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 138.43) (xy 58.42 138.43)
+			(xy 57.15 134.62) (xy 58.42 134.62)
 		)
 		(stroke
 			(width 0)
@@ -12779,13 +14333,33 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 156.21) (xy 50.8 156.21)
+			(xy 151.13 168.91) (xy 151.13 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb02bba2-9653-422b-b386-ad0e8893d6bf")
+	)
+	(wire
+		(pts
+			(xy 45.72 152.4) (xy 50.8 152.4)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ccf29aa5-283e-4186-a6da-3aed8f5b3666")
+	)
+	(wire
+		(pts
+			(xy 129.54 193.04) (xy 139.7 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ced28d34-44e1-47d1-83ae-5e98f8271d18")
 	)
 	(wire
 		(pts
@@ -12799,6 +14373,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 168.91) (xy 142.24 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfd76a45-7167-4882-b32e-2534e56f1a3f")
+	)
+	(wire
+		(pts
 			(xy 255.27 62.23) (xy 257.81 62.23)
 		)
 		(stroke
@@ -12809,7 +14393,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 138.43) (xy 30.48 138.43)
+			(xy 24.13 134.62) (xy 30.48 134.62)
 		)
 		(stroke
 			(width 0)
@@ -12859,7 +14443,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 147.32) (xy 30.48 147.32)
+			(xy 24.13 143.51) (xy 30.48 143.51)
 		)
 		(stroke
 			(width 0)
@@ -12970,7 +14554,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 147.32) (xy 58.42 147.32)
+			(xy 57.15 143.51) (xy 58.42 143.51)
 		)
 		(stroke
 			(width 0)
@@ -13110,7 +14694,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 138.43) (xy 78.74 138.43)
+			(xy 80.01 134.62) (xy 78.74 134.62)
 		)
 		(stroke
 			(width 0)
@@ -13281,7 +14865,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 156.21) (xy 113.03 156.21)
+			(xy 106.68 152.4) (xy 113.03 152.4)
 		)
 		(stroke
 			(width 0)
@@ -13290,7 +14874,7 @@
 		(uuid "fffd2385-6eb1-4e85-8a9e-fc09874e5532")
 	)
 	(label "OBQ1"
-		(at 24.13 138.43 0)
+		(at 24.13 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13320,7 +14904,7 @@
 		(uuid "133b0259-d800-46f9-9645-a46521947036")
 	)
 	(label "OBQ2"
-		(at 24.13 147.32 0)
+		(at 24.13 143.51 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13330,7 +14914,7 @@
 		(uuid "145a0d57-a6d6-4e93-807a-63309529a1cd")
 	)
 	(label "OBQ6"
-		(at 113.03 156.21 180)
+		(at 113.03 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13360,7 +14944,7 @@
 		(uuid "2dcf72c9-a8ed-4524-b5fa-d90d0d033e96")
 	)
 	(label "OBQ3"
-		(at 24.13 156.21 0)
+		(at 24.13 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13430,7 +15014,7 @@
 		(uuid "50f85fc2-a599-4799-8b85-31475655db24")
 	)
 	(label "OBQ4"
-		(at 113.03 138.43 180)
+		(at 113.03 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13438,6 +15022,26 @@
 			(justify right bottom)
 		)
 		(uuid "5231feae-8a05-4b9b-888d-8f0e4b9f3559")
+	)
+	(label "RxDA"
+		(at 129.54 193.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "555a5273-247b-41f9-8db6-90076cb2e757")
+	)
+	(label "RxDA"
+		(at 121.92 77.47 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "601d35fc-143c-45ee-8774-5106c2b587ea")
 	)
 	(label "DA6"
 		(at 92.71 59.69 0)
@@ -13470,7 +15074,7 @@
 		(uuid "73c75f2e-6949-4f2d-8811-54e9ebf3643d")
 	)
 	(label "OBQ5"
-		(at 113.03 147.32 180)
+		(at 113.03 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -13559,6 +15163,16 @@
 		)
 		(uuid "a0c1d98b-f4e1-414a-b0a3-822f3583382a")
 	)
+	(label "TxDA"
+		(at 121.92 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "aa84141e-17aa-4bf3-806f-59a56254cb6c")
+	)
 	(label "DA7"
 		(at 92.71 62.23 0)
 		(effects
@@ -13588,6 +15202,16 @@
 			(justify right bottom)
 		)
 		(uuid "bb4728d8-c79b-4766-a54f-a80b7ff05f49")
+	)
+	(label "TxDA"
+		(at 129.54 168.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c271a37c-4fee-4f87-884a-932e75312f12")
 	)
 	(label "OB3"
 		(at 99.06 97.79 180)
@@ -14417,7 +16041,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 74.93 138.43 180)
+		(at 74.93 134.62 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14427,7 +16051,7 @@
 		(dnp no)
 		(uuid "0c0e39eb-71bb-44fb-9270-b7ce19762cda")
 		(property "Reference" "D8"
-			(at 73.914 135.636 0)
+			(at 73.914 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14437,7 +16061,7 @@
 			)
 		)
 		(property "Value" "EA13"
-			(at 74.93 141.732 0)
+			(at 74.93 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14447,7 +16071,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 138.43 0)
+			(at 74.93 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14458,7 +16082,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 138.43 0)
+			(at 74.93 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14469,7 +16093,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 74.93 138.43 0)
+			(at 74.93 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14480,7 +16104,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 138.43 0)
+			(at 74.93 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14758,7 +16382,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 99.06 156.21 0)
+		(at 99.06 152.4 0)
 		(mirror y)
 		(unit 6)
 		(body_style 1)
@@ -14769,7 +16393,7 @@
 		(dnp no)
 		(uuid "129be2bd-1c88-4a47-be79-0a2ab692d4fc")
 		(property "Reference" "U47"
-			(at 96.266 152.4 0)
+			(at 96.266 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14779,7 +16403,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 99.06 149.86 0)
+			(at 99.06 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14790,7 +16414,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 156.21 0)
+			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14801,7 +16425,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 99.06 156.21 0)
+			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14812,7 +16436,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 99.06 156.21 0)
+			(at 99.06 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15348,6 +16972,86 @@
 		)
 	)
 	(symbol
+		(lib_name "RES_21")
+		(lib_id "my_retro_chip:RES")
+		(at 139.7 173.99 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1dedcdf8-2336-400d-a146-d77b8e74f7f6")
+		(property "Reference" "R45"
+			(at 139.954 174.752 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 144.526 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 173.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5e8396d4-d644-432d-b64a-db611a1389d8")
+		)
+		(pin ""
+			(uuid "64abb85a-b3e9-4a98-a775-f60831a2af1f")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 74.93 38.1 0)
 		(unit 1)
@@ -15508,6 +17212,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 167.64 193.04 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2118a5ab-da0a-40a8-83e3-7974cdc37000")
+		(property "Reference" "#PWR0204"
+			(at 173.99 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 171.45 193.0399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 167.64 193.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0246b477-8bf7-46b5-a3d0-88feaef13d2c")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Transistor_FET:BSS138")
 		(at 26.67 90.17 0)
 		(mirror y)
@@ -15595,7 +17378,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 38.1 147.32 0)
+		(at 38.1 143.51 0)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15605,7 +17388,7 @@
 		(dnp no)
 		(uuid "22deca19-cb73-4628-842e-792ff87d4a08")
 		(property "Reference" "U47"
-			(at 39.37 143.51 0)
+			(at 39.37 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15615,7 +17398,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 38.1 140.97 0)
+			(at 38.1 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15626,7 +17409,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 147.32 0)
+			(at 38.1 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15637,7 +17420,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 38.1 147.32 0)
+			(at 38.1 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15648,7 +17431,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 38.1 147.32 0)
+			(at 38.1 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15815,7 +17598,7 @@
 	)
 	(symbol
 		(lib_id "my_retro_chip:RES")
-		(at 83.82 144.78 0)
+		(at 83.82 140.97 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -15826,7 +17609,7 @@
 		(dnp no)
 		(uuid "2991b977-4f81-4511-81b5-4a97c3648647")
 		(property "Reference" "R20"
-			(at 84.582 145.288 0)
+			(at 84.582 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15836,7 +17619,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 82.804 149.606 0)
+			(at 82.804 145.796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15846,7 +17629,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 83.82 144.78 0)
+			(at 83.82 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15857,7 +17640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 144.78 0)
+			(at 83.82 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15868,7 +17651,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 144.78 0)
+			(at 83.82 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15978,7 +17761,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 99.06 138.43 0)
+		(at 99.06 134.62 0)
 		(mirror y)
 		(unit 4)
 		(body_style 1)
@@ -15989,7 +17772,7 @@
 		(dnp no)
 		(uuid "2bee8b57-4f67-4531-b563-11eb2ec83b42")
 		(property "Reference" "U47"
-			(at 96.012 134.62 0)
+			(at 96.012 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15999,7 +17782,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 99.06 132.08 0)
+			(at 99.06 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16010,7 +17793,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 138.43 0)
+			(at 99.06 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16021,7 +17804,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 99.06 138.43 0)
+			(at 99.06 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16032,7 +17815,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 99.06 138.43 0)
+			(at 99.06 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16264,6 +18047,87 @@
 			(project "io"
 				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RES_25")
+		(lib_id "my_retro_chip:RES")
+		(at 142.24 195.58 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2e1c7d45-4e53-423a-99e2-d51e0c26509d")
+		(property "Reference" "R49"
+			(at 142.748 191.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 143.002 195.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 142.24 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.24 195.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "793885f9-4066-445c-a5ad-57a4b6fb63ac")
+		)
+		(pin ""
+			(uuid "06838b9e-9b90-4e56-b1c9-add657d5470d")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -17388,6 +19252,205 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 166.37 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "48cb1984-4da7-48bf-a090-d252d744699a")
+		(property "Reference" "D17"
+			(at 164.084 175.006 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A_TX"
+			(at 164.084 181.102 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 166.37 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 166.37 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8efe2e96-ae39-4855-a04b-59f6bcac5612")
+		)
+		(pin "1"
+			(uuid "22b17743-c72e-450b-ada7-f37696f2a45d")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:S8550")
+		(at 151.13 175.26 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "49af754a-0eda-4bac-9c34-26ae2b878224")
+		(property "Reference" "Q4"
+			(at 147.574 172.466 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S8550"
+			(at 155.702 172.974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 149.225 180.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8550.pdf"
+			(at 151.13 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current PNP Transistor, TO-92"
+			(at 151.13 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "PNP"
+			(at 151.13 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 151.13 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fd0f3978-2b17-469d-a66c-4471a30de043")
+		)
+		(pin "3"
+			(uuid "9f93ee47-2258-4920-ad7a-7c6c0c8d24f5")
+		)
+		(pin "1"
+			(uuid "1db42f3f-64ae-4662-81e0-48bae6911407")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 46.99 168.91 0)
 		(unit 1)
@@ -17465,6 +19528,113 @@
 			(project "io"
 				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:S8050")
+		(at 151.13 186.69 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4cdb947e-2075-4a82-9169-7fd902994ff0")
+		(property "Reference" "Q5"
+			(at 147.574 180.848 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "S8050"
+			(at 157.988 186.436 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 153.035 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.unisonic.com.tw/datasheet/S8050.pdf"
+			(at 151.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "0.7A Ic, 20V Vce, Low Voltage High Current NPN Transistor, TO-92"
+			(at 151.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 151.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=E 2=B 3=C"
+			(at 151.13 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "aa8ae9a5-1781-418a-aa65-468675419af6")
+		)
+		(pin "1"
+			(uuid "5f0869d7-b4c8-41a0-b7d5-782d0f1df818")
+		)
+		(pin "3"
+			(uuid "eee0305b-0078-4ae1-adea-1e2dc6bedec1")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -17843,7 +20013,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 62.23 138.43 0)
+		(at 62.23 134.62 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -17854,7 +20024,7 @@
 		(dnp no)
 		(uuid "543d2801-ca81-4ea0-b9e6-8de5fc0e2e22")
 		(property "Reference" "D5"
-			(at 63.246 135.636 0)
+			(at 63.246 131.826 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17864,7 +20034,7 @@
 			)
 		)
 		(property "Value" "EA13"
-			(at 62.23 141.732 0)
+			(at 62.23 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17874,7 +20044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 138.43 0)
+			(at 62.23 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17885,7 +20055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 138.43 0)
+			(at 62.23 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17896,7 +20066,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 62.23 138.43 0)
+			(at 62.23 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17907,7 +20077,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 62.23 138.43 0)
+			(at 62.23 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18024,7 +20194,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 74.93 147.32 180)
+		(at 74.93 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18034,7 +20204,7 @@
 		(dnp no)
 		(uuid "55939993-88ab-48c3-8600-77164bfe5cea")
 		(property "Reference" "D9"
-			(at 73.914 144.526 0)
+			(at 73.914 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18044,7 +20214,7 @@
 			)
 		)
 		(property "Value" "EA13"
-			(at 74.93 150.622 0)
+			(at 74.93 146.812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18054,7 +20224,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 147.32 0)
+			(at 74.93 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18065,7 +20235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 147.32 0)
+			(at 74.93 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18076,7 +20246,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 74.93 147.32 0)
+			(at 74.93 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18087,7 +20257,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 147.32 0)
+			(at 74.93 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18527,7 +20697,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 99.06 147.32 0)
+		(at 99.06 143.51 0)
 		(mirror y)
 		(unit 5)
 		(body_style 1)
@@ -18538,7 +20708,7 @@
 		(dnp no)
 		(uuid "5b724064-e4b6-4360-b291-d6d0746efef4")
 		(property "Reference" "U47"
-			(at 96.266 143.51 0)
+			(at 96.266 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18548,7 +20718,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 99.06 140.97 0)
+			(at 99.06 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18559,7 +20729,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 147.32 0)
+			(at 99.06 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18570,7 +20740,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 99.06 147.32 0)
+			(at 99.06 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18581,7 +20751,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 99.06 147.32 0)
+			(at 99.06 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18975,8 +21145,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 135.89 158.75 180)
+		(lib_id "power:+5V")
+		(at 130.81 184.15 90)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18984,31 +21155,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "61e55cd0-5ae6-4a5b-9a95-7f37153cf76a")
-		(property "Reference" "D16"
-			(at 131.826 155.702 0)
+		(uuid "604e5b73-11cf-4494-b347-f28510d4cd89")
+		(property "Reference" "#PWR0203"
+			(at 134.62 184.15 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "B_TX"
-			(at 134.112 162.052 0)
+		(property "Value" "VCC1"
+			(at 126.492 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 158.75 0)
+			(at 130.81 184.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19019,7 +21189,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 135.89 158.75 0)
+			(at 130.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 130.81 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b72156e-9b89-49b0-8880-0db4c2d52491")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 135.89 157.48 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "61e55cd0-5ae6-4a5b-9a95-7f37153cf76a")
+		(property "Reference" "D16"
+			(at 131.826 154.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B_TX"
+			(at 134.112 160.782 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19030,7 +21278,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 135.89 158.75 0)
+			(at 135.89 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19041,7 +21289,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 135.89 158.75 0)
+			(at 135.89 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19068,7 +21316,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 38.1 156.21 0)
+		(at 38.1 152.4 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19078,7 +21326,7 @@
 		(dnp no)
 		(uuid "632cd0ad-dc79-429f-a40b-a9942beb5862")
 		(property "Reference" "U47"
-			(at 39.37 152.146 0)
+			(at 39.37 148.336 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19088,7 +21336,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 38.1 149.86 0)
+			(at 38.1 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19099,7 +21347,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 156.21 0)
+			(at 38.1 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19110,7 +21358,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 38.1 156.21 0)
+			(at 38.1 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19121,7 +21369,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 38.1 156.21 0)
+			(at 38.1 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19484,7 +21732,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 68.58 138.43 0)
+		(at 68.58 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19494,7 +21742,7 @@
 		(dnp no)
 		(uuid "69f5c3c5-843f-4b82-9600-9d5bbcf85bff")
 		(property "Reference" "#PWR0141"
-			(at 68.58 142.24 0)
+			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19505,7 +21753,7 @@
 			)
 		)
 		(property "Value" "VCC1"
-			(at 68.58 134.112 0)
+			(at 68.58 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19515,7 +21763,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 138.43 0)
+			(at 68.58 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19526,7 +21774,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 138.43 0)
+			(at 68.58 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19537,7 +21785,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 68.58 138.43 0)
+			(at 68.58 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19667,7 +21915,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC04")
-		(at 38.1 138.43 0)
+		(at 38.1 134.62 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19677,7 +21925,7 @@
 		(dnp no)
 		(uuid "6acdc128-d8ef-4a21-a50a-9d8f045bd247")
 		(property "Reference" "U47"
-			(at 38.862 134.112 0)
+			(at 38.862 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19687,7 +21935,7 @@
 			)
 		)
 		(property "Value" "74HC04"
-			(at 38.1 132.08 0)
+			(at 38.1 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19698,7 +21946,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 138.43 0)
+			(at 38.1 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19709,7 +21957,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/74HC_HCT04.pdf"
-			(at 38.1 138.43 0)
+			(at 38.1 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19720,7 +21968,7 @@
 			)
 		)
 		(property "Description" "Hex Inverter"
-			(at 38.1 138.43 0)
+			(at 38.1 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19911,6 +22159,98 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 140.97 184.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6cd5772b-5715-4a66-931f-9fbdea8df644")
+		(property "Reference" "D18"
+			(at 138.684 181.356 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "A_RX"
+			(at 138.938 187.198 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 140.97 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 140.97 184.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cf88ff09-aacf-4c34-bb6c-e3a39b54538c")
+		)
+		(pin "1"
+			(uuid "0a6e6964-0d9d-4799-b9f6-ceb3222d9f2d")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 31.75 176.53 0)
 		(unit 1)
@@ -20076,7 +22416,7 @@
 	(symbol
 		(lib_name "RES_3")
 		(lib_id "my_retro_chip:RES")
-		(at 53.34 153.67 0)
+		(at 53.34 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20086,7 +22426,7 @@
 		(dnp no)
 		(uuid "72306bf9-2c14-4dce-bca2-6b36675d64b1")
 		(property "Reference" "R18"
-			(at 52.578 154.178 0)
+			(at 52.578 150.368 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20096,7 +22436,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 54.356 158.496 0)
+			(at 54.356 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20106,7 +22446,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 53.34 153.67 0)
+			(at 53.34 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20117,7 +22457,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 153.67 0)
+			(at 53.34 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20128,7 +22468,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 153.67 0)
+			(at 53.34 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20756,7 +23096,7 @@
 			)
 		)
 		(property "Value" "4050"
-			(at 150.876 151.384 0)
+			(at 157.226 148.844 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21019,7 +23359,7 @@
 	(symbol
 		(lib_name "RES_2")
 		(lib_id "my_retro_chip:RES")
-		(at 83.82 153.67 0)
+		(at 83.82 149.86 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21030,7 +23370,7 @@
 		(dnp no)
 		(uuid "84e5bca5-d272-43b0-882c-38f68f957840")
 		(property "Reference" "R21"
-			(at 84.582 154.178 0)
+			(at 84.582 150.368 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21040,7 +23380,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 82.804 158.496 0)
+			(at 82.804 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21050,7 +23390,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 83.82 153.67 0)
+			(at 83.82 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21061,7 +23401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 153.67 0)
+			(at 83.82 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21072,7 +23412,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 153.67 0)
+			(at 83.82 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21737,6 +24077,87 @@
 		)
 	)
 	(symbol
+		(lib_name "RES_26")
+		(lib_id "my_retro_chip:RES")
+		(at 161.29 190.5 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "91c710e2-757a-45a7-9071-3d8d4fc564dd")
+		(property "Reference" "R50"
+			(at 160.274 191.008 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 160.782 195.072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 161.29 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 161.29 190.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "ccf30d98-50ab-46b1-a9dc-0d0f5743ba3c")
+		)
+		(pin ""
+			(uuid "fc43271f-554c-40d5-998e-c26fb6447ab5")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "RES_14")
 		(lib_id "my_retro_chip:RES")
 		(at 231.14 133.35 0)
@@ -22099,8 +24520,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 74.93 156.21 180)
+		(lib_name "RES_20")
+		(lib_id "my_retro_chip:RES")
+		(at 138.43 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22108,9 +24530,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "992f41cc-545a-4f6e-9c2b-7f2f8d19fd72")
-		(property "Reference" "D10"
-			(at 73.914 153.416 0)
+		(uuid "976c5c3a-f445-4e60-94d9-3026574e49f5")
+		(property "Reference" "R44"
+			(at 138.43 166.878 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22119,8 +24541,8 @@
 				)
 			)
 		)
-		(property "Value" "EA13"
-			(at 74.93 159.512 0)
+		(property "Value" "1K"
+			(at 138.938 170.942 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22129,8 +24551,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 74.93 156.21 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 138.43 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22141,7 +24563,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 156.21 0)
+			(at 138.43 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 138.43 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "452f2da0-e7e5-4986-a753-147ca9694918")
+		)
+		(pin ""
+			(uuid "0f04e4ec-f870-4ac9-a277-189d1292171e")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 74.93 152.4 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "992f41cc-545a-4f6e-9c2b-7f2f8d19fd72")
+		(property "Reference" "D10"
+			(at 73.914 149.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EA13"
+			(at 74.93 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22152,7 +24653,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 74.93 156.21 0)
+			(at 74.93 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22163,7 +24664,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 74.93 156.21 0)
+			(at 74.93 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22454,6 +24955,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GNDREF")
+		(at 171.45 177.8 90)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f4cdfef-f4a7-44ed-9a7c-ba2d7d806f04")
+		(property "Reference" "#PWR0196"
+			(at 177.8 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" ""
+			(at 175.26 177.8001 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 171.45 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
+			(at 171.45 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5ca40790-0e41-4a60-9350-1265548d6285")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "RES_16")
 		(lib_id "my_retro_chip:RES")
 		(at 156.21 88.9 0)
@@ -22709,7 +25290,7 @@
 	(symbol
 		(lib_name "RES_18")
 		(lib_id "my_retro_chip:RES")
-		(at 127 156.21 0)
+		(at 127 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22719,7 +25300,7 @@
 		(dnp no)
 		(uuid "a7da90a7-ab40-4fc8-a1be-23c194728108")
 		(property "Reference" "R42"
-			(at 126.238 156.718 0)
+			(at 126.238 155.448 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22729,7 +25310,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 128.016 161.036 0)
+			(at 128.016 159.766 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22739,7 +25320,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 127 156.21 0)
+			(at 127 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22750,7 +25331,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 127 156.21 0)
+			(at 127 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22761,7 +25342,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 127 156.21 0)
+			(at 127 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23004,7 +25585,7 @@
 	(symbol
 		(lib_name "RES_6")
 		(lib_id "my_retro_chip:RES")
-		(at 53.34 135.89 0)
+		(at 53.34 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23014,7 +25595,7 @@
 		(dnp no)
 		(uuid "ab0bf1bb-5271-420b-a3ef-7d791f3561b4")
 		(property "Reference" "R16"
-			(at 52.578 136.398 0)
+			(at 52.578 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23024,7 +25605,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 54.356 140.716 0)
+			(at 54.356 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23034,7 +25615,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 53.34 135.89 0)
+			(at 53.34 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23045,7 +25626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 135.89 0)
+			(at 53.34 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23056,7 +25637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 135.89 0)
+			(at 53.34 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23919,8 +26500,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 62.23 156.21 0)
+		(lib_id "power:+5V")
+		(at 130.81 177.8 90)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -23929,9 +26510,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b73f3511-44e8-4838-a5b5-1c910ff7a4ca")
-		(property "Reference" "D7"
-			(at 63.246 153.416 0)
+		(uuid "b7059299-bb11-4f21-94ab-b4ca02ede4ae")
+		(property "Reference" "#PWR0201"
+			(at 134.62 177.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23940,8 +26522,8 @@
 				)
 			)
 		)
-		(property "Value" "EA13"
-			(at 62.23 159.512 0)
+		(property "Value" "VCC1"
+			(at 126.492 177.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23951,7 +26533,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 156.21 0)
+			(at 130.81 177.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23962,7 +26544,84 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 156.21 0)
+			(at 130.81 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 130.81 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d4ed72a1-9407-4760-aab8-6c9edab9b1eb")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "#PWR0201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 62.23 152.4 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b73f3511-44e8-4838-a5b5-1c910ff7a4ca")
+		(property "Reference" "D7"
+			(at 63.246 149.606 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EA13"
+			(at 62.23 155.702 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 62.23 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23973,7 +26632,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 62.23 156.21 0)
+			(at 62.23 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23984,7 +26643,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 62.23 156.21 0)
+			(at 62.23 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24018,7 +26677,7 @@
 	(symbol
 		(lib_name "RES_8")
 		(lib_id "my_retro_chip:RES")
-		(at 83.82 135.89 0)
+		(at 83.82 132.08 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24029,7 +26688,7 @@
 		(dnp no)
 		(uuid "b7545125-90bf-409b-9ab7-c523d1a45f8a")
 		(property "Reference" "R19"
-			(at 84.582 136.398 0)
+			(at 84.582 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24039,7 +26698,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 82.804 140.716 0)
+			(at 82.804 136.906 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24049,7 +26708,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 83.82 135.89 0)
+			(at 83.82 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24060,7 +26719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 135.89 0)
+			(at 83.82 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24071,7 +26730,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 135.89 0)
+			(at 83.82 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24212,7 +26871,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 250.952 134.366 0)
+			(at 250.952 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25145,6 +27804,86 @@
 		)
 	)
 	(symbol
+		(lib_name "RES_22")
+		(lib_id "my_retro_chip:RES")
+		(at 134.62 186.69 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbc636a6-943a-4a3c-b044-61cd51cc9ea0")
+		(property "Reference" "R48"
+			(at 133.604 182.372 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 133.858 186.182 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 134.62 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 134.62 186.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "fbb5bea0-d1c1-4301-ba4f-81faa628db6a")
+		)
+		(pin ""
+			(uuid "62a420f5-99bb-414c-8a9b-6416dee5fac6")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 274.32 134.62 0)
 		(unit 1)
@@ -25334,7 +28073,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 244.348 134.366 0)
+			(at 244.348 134.874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25730,6 +28469,86 @@
 		)
 	)
 	(symbol
+		(lib_name "RES_19")
+		(lib_id "my_retro_chip:RES")
+		(at 158.75 175.26 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dceaaad7-ab5f-471f-a3c6-55e791202d0e")
+		(property "Reference" "R43"
+			(at 158.75 175.768 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300"
+			(at 159.766 180.086 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 158.75 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "e708cbcc-6700-44d2-88ec-cfbac53e1a3f")
+		)
+		(pin ""
+			(uuid "f42d5a2c-8490-459b-815b-355d8307eed7")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 271.78 134.62 0)
 		(unit 1)
@@ -25816,7 +28635,7 @@
 	(symbol
 		(lib_name "RES_5")
 		(lib_id "my_retro_chip:RES")
-		(at 53.34 144.78 0)
+		(at 53.34 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25826,7 +28645,7 @@
 		(dnp no)
 		(uuid "e01dceee-3171-4a16-b40c-ff8ca18a321a")
 		(property "Reference" "R17"
-			(at 52.578 145.288 0)
+			(at 52.578 141.478 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25836,7 +28655,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 54.356 149.606 0)
+			(at 54.356 145.796 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25846,7 +28665,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 53.34 144.78 0)
+			(at 53.34 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25857,7 +28676,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 144.78 0)
+			(at 53.34 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25868,7 +28687,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 144.78 0)
+			(at 53.34 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26446,7 +29265,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 62.23 147.32 0)
+		(at 62.23 143.51 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -26457,7 +29276,7 @@
 		(dnp no)
 		(uuid "f23e1afa-8311-4b50-bc16-3c768d22c505")
 		(property "Reference" "D6"
-			(at 63.246 144.526 0)
+			(at 63.246 140.716 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26467,7 +29286,7 @@
 			)
 		)
 		(property "Value" "EA13"
-			(at 62.23 150.622 0)
+			(at 62.23 146.812 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26477,7 +29296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 147.32 0)
+			(at 62.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26488,7 +29307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 147.32 0)
+			(at 62.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26499,7 +29318,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 62.23 147.32 0)
+			(at 62.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26510,7 +29329,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 62.23 147.32 0)
+			(at 62.23 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26744,7 +29563,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4050")
-		(at 149.86 158.75 180)
+		(at 149.86 157.48 180)
 		(unit 6)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26754,7 +29573,7 @@
 		(dnp no)
 		(uuid "f348af90-be24-4881-a8c7-fb8584d7fd00")
 		(property "Reference" "U52"
-			(at 148.336 154.686 0)
+			(at 148.336 153.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26764,7 +29583,7 @@
 			)
 		)
 		(property "Value" "4050"
-			(at 150.622 163.576 0)
+			(at 157.48 160.274 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26774,7 +29593,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 149.86 158.75 0)
+			(at 149.86 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26785,7 +29604,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.intersil.com/content/dam/intersil/documents/cd40/cd4050bms.pdf"
-			(at 149.86 158.75 0)
+			(at 149.86 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26796,7 +29615,7 @@
 			)
 		)
 		(property "Description" "Hex Buffer"
-			(at 149.86 158.75 0)
+			(at 149.86 157.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
