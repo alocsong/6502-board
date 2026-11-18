@@ -7991,7 +7991,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 20.32) (xy 26.67 20.32)
+			(xy 25.4 17.78) (xy 35.56 17.78)
 		)
 		(stroke
 			(width 0)
@@ -10500,12 +10500,12 @@
 		(uuid "200709be-a96c-483e-8aa8-41824ea12309")
 	)
 	(label "DRAM_~{WE}"
-		(at 26.67 20.32 0)
+		(at 35.56 17.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "22c17286-5751-45fc-9c54-c5710738830a")
 	)
@@ -11155,7 +11155,7 @@
 	)
 	(global_label "DR_~{W}"
 		(shape input)
-		(at 25.4 20.32 180)
+		(at 25.4 17.78 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11165,7 +11165,7 @@
 		)
 		(uuid "25dd02e8-4594-443d-951d-14cff1f6b55b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.4558 20.32 0)
+			(at 17.4558 17.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19018,7 +19018,7 @@
 	)
 	(sheet_instances
 		(path "/"
-			(page "3")
+			(page "2")
 		)
 	)
 )

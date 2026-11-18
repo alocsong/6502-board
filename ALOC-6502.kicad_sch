@@ -4686,6 +4686,132 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "CAP_S_4"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "CAP_S_4_1_1"
+				(polyline
+					(pts
+						(xy -1.27 -6.35) (xy 1.27 -6.35)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -7.62) (xy 1.27 -7.62)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -8.89 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C_Polarized_Small"
 			(pin_numbers
 				(hide yes)
@@ -5204,186 +5330,6 @@
 					(at 3.81 0 180)
 					(length 2.54)
 					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Device:L_Small"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "L"
-				(at 0.762 1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "L_Small"
-				(at 0.762 -1.016 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Inductor, small symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "L_Small_0_1"
-				(arc
-					(start 0 2.032)
-					(mid 0.5058 1.524)
-					(end 0 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.016)
-					(mid 0.5058 0.508)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.5058 -0.508)
-					(end 0 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.016)
-					(mid 0.5058 -1.524)
-					(end 0 -2.032)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_Small_1_1"
-				(pin passive line
-					(at 0 2.54 270)
-					(length 0.508)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 90)
-					(length 0.508)
-					(name ""
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -10852,7 +10798,7 @@
 		(uuid "3da0bc11-67ca-4b42-9829-2557844bebef")
 	)
 	(junction
-		(at 151.13 81.28)
+		(at 149.86 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f0dcda8-5159-4ee2-a73d-38e6531cc616")
@@ -10892,12 +10838,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "64253c98-6ae6-4df2-a54d-da27656ceb87")
-	)
-	(junction
-		(at 185.42 29.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "72f94d24-759f-4318-8d6e-c268f2bc833a")
 	)
 	(junction
 		(at 46.99 21.59)
@@ -12174,16 +12114,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 81.28) (xy 152.4 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d9ff6fc-592b-4ff6-8420-c89f2935a9a5")
-	)
-	(wire
-		(pts
 			(xy 27.94 90.17) (xy 27.94 93.98)
 		)
 		(stroke
@@ -12241,16 +12171,6 @@
 			(type default)
 		)
 		(uuid "2291679d-7147-4bd6-9bb1-2d43c7c758c8")
-	)
-	(wire
-		(pts
-			(xy 151.13 80.01) (xy 151.13 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23af64e5-f74f-40ef-9f89-272887337730")
 	)
 	(wire
 		(pts
@@ -12314,7 +12234,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 85.09) (xy 151.13 85.09)
+			(xy 148.59 85.09) (xy 149.86 85.09)
 		)
 		(stroke
 			(width 0)
@@ -12752,6 +12672,16 @@
 		)
 		(uuid "49a98d90-710b-40e9-b4c9-8934bddcffef")
 	)
+	(wire
+		(pts
+			(xy 149.86 81.28) (xy 152.4 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af607ae-7382-43ba-a4d3-a4f2712f2dd7")
+	)
 	(bus
 		(pts
 			(xy 199.39 78.74) (xy 199.39 76.2)
@@ -13171,16 +13101,6 @@
 			(type default)
 		)
 		(uuid "720ecb2e-e73c-4503-a5b6-3a69a7db2dc0")
-	)
-	(wire
-		(pts
-			(xy 194.31 29.21) (xy 195.58 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74334c80-e2a7-4455-b245-4b6bcdcb4226")
 	)
 	(wire
 		(pts
@@ -14054,16 +13974,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 29.21) (xy 189.23 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b64c8914-9559-422c-bbe6-b6abb3926835")
-	)
-	(wire
-		(pts
 			(xy 201.93 88.9) (xy 205.74 88.9)
 		)
 		(stroke
@@ -14094,7 +14004,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 33.02) (xy 99.06 31.75)
+			(xy 99.06 31.75) (xy 99.06 34.29)
 		)
 		(stroke
 			(width 0)
@@ -14844,7 +14754,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 85.09) (xy 151.13 81.28)
+			(xy 149.86 85.09) (xy 149.86 81.28)
 		)
 		(stroke
 			(width 0)
@@ -16568,7 +16478,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC1"
+		(property "Value" "MVCC"
 			(at 85.09 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16645,7 +16555,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC1"
+		(property "Value" "MVCC"
 			(at 63.5 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16880,7 +16790,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC2"
+		(property "Value" "SVCC"
 			(at 251.46 27.686 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17037,7 +16947,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC1"
+		(property "Value" "MVCC"
 			(at 75.438 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17309,7 +17219,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC2"
+		(property "Value" "MVCC"
 			(at 20.32 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17620,7 +17530,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC2"
+		(property "Value" "SVCC"
 			(at 218.44 59.436 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17835,6 +17745,87 @@
 		)
 	)
 	(symbol
+		(lib_name "CAP_S_4")
+		(lib_id "my_retro_chip:CAP_S")
+		(at 99.06 29.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1f872bee-0762-4469-9778-857de2fb5596")
+		(property "Reference" "C26"
+			(at 93.218 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 95.504 38.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "c82c75cf-1050-46b5-a615-c111b1a0bbe4")
+		)
+		(pin ""
+			(uuid "7631a573-9d7b-4051-ba62-f8820ee37505")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
+					(reference "C26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 149.86 30.48 0)
 		(unit 1)
@@ -17856,7 +17847,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC1"
+		(property "Value" "MVCC"
 			(at 149.86 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18127,7 +18118,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "MVCC"
 			(at 29.972 83.312 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19311,7 +19302,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC2"
+		(property "Value" "MVCC"
 			(at 41.91 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19875,7 +19866,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "MVCC"
 			(at 278.13 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20412,7 +20403,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "MVCC"
 			(at 168.91 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21094,7 +21085,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC2"
+		(property "Value" "SVCC"
 			(at 214.63 26.416 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21151,7 +21142,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 151.13 80.01 0)
+		(at 149.86 81.28 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21161,7 +21152,7 @@
 		(dnp no)
 		(uuid "752ad6c7-d4b8-4b76-91fd-eb9d8204d2d2")
 		(property "Reference" "#PWR09"
-			(at 151.13 83.82 0)
+			(at 149.86 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21171,8 +21162,8 @@
 				)
 			)
 		)
-		(property "Value" "VCC1"
-			(at 150.876 76.2 0)
+		(property "Value" "MVCC"
+			(at 149.606 77.47 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21182,7 +21173,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 80.01 0)
+			(at 149.86 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21193,7 +21184,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 80.01 0)
+			(at 149.86 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21204,7 +21195,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 151.13 80.01 0)
+			(at 149.86 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21221,85 +21212,6 @@
 			(project "ALOC-6502"
 				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:L_Small")
-		(at 191.77 29.21 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "76565144-5453-4cd4-959e-6c3a30f508d4")
-		(property "Reference" "L2"
-			(at 191.516 27.178 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100"
-			(at 191.77 30.988 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 191.77 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 191.77 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Inductor, small symbol"
-			(at 191.77 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "b20a76d1-ecdc-4435-a71c-0adb8c759a65")
-		)
-		(pin "1"
-			(uuid "4e9a73a0-6eb0-4735-b022-12b7362083b1")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -22579,7 +22491,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "MVCC"
 			(at 27.94 126.492 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23171,7 +23083,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "MVCC"
 			(at 267.97 68.072 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23964,7 +23876,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "MVCC"
 			(at 55.88 130.302 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24329,7 +24241,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC1"
+		(property "Value" "MVCC"
 			(at 107.95 160.782 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24406,7 +24318,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "MVCC"
 			(at 27.432 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24723,7 +24635,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC2"
+		(property "Value" "SVCC"
 			(at 181.61 25.146 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25695,87 +25607,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_Small")
-		(at 99.06 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d000d170-18a1-4981-aa8c-8c5381486f61")
-		(property "Reference" "C26"
-			(at 93.472 33.02 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470u"
-			(at 93.472 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm"
-			(at 99.06 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, small symbol"
-			(at 99.06 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "0d6eb0d5-3542-472b-a9e8-0b3ea394790e")
-		)
-		(pin "1"
-			(uuid "1610b1cf-f605-470d-abec-d01af53f75b0")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDREF")
 		(at 82.55 55.88 90)
 		(unit 1)
@@ -26707,7 +26538,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC"
+		(property "Value" "MVCC"
 			(at 114.808 148.59 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26757,83 +26588,6 @@
 			(project "ALOC-6502"
 				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
 					(reference "#PWR087")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 195.58 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f26f1cf9-e060-4180-809a-8fe2034e7ef4")
-		(property "Reference" "#PWR0117"
-			(at 195.58 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "VCC"
-			(at 195.58 24.892 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 195.58 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "09bb7c0d-9c9b-4591-b29e-57fd7839de8f")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
-					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -27058,7 +26812,7 @@
 				)
 			)
 		)
-		(property "Value" "VCC1"
+		(property "Value" "MVCC"
 			(at 102.87 27.432 0)
 			(show_name no)
 			(do_not_autoplace no)

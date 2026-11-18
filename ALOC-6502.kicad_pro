@@ -665,11 +665,6 @@
         "uuid": "2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0"
       },
       {
-        "filename": "dram.kicad_sch",
-        "name": "DRAM_RAS_ONLY",
-        "uuid": "e3bdc04a-6dec-42dc-b203-381273578e9d"
-      },
-      {
         "filename": "dram_cbr.kicad_sch",
         "name": "DRAM_CBR",
         "uuid": "3138fb6a-efab-4937-8633-063bf7478e50"
@@ -690,17 +685,13 @@
         "uuid": "f2047e91-fb75-44e7-a7de-e6160924c6bd"
       }
     ],
-    "used_designators": "#PWR1-172,#PWR177-179,#PWR181-204,C1-50,C56-60,D1-19,J1-2,JP1-4,L1-6,Q1-7,R1-25,R27-32,R37-50,RV1,SW1-3,U1-57,Y1-3",
+    "used_designators": "#PWR1-172,#PWR177-179,#PWR181-204,C1-50,C56-60,D1-19,DS1,J1-2,JP1-4,L1-6,Q1-7,R1-25,R27-32,R37-50,RV1,SW1-3,U1-57,Y1-3",
     "variants": []
   },
   "sheets": [
     [
       "2d929ac1-4a8f-4287-b6a8-981a2fa2c8f0",
       "ALOC-6502"
-    ],
-    [
-      "e3bdc04a-6dec-42dc-b203-381273578e9d",
-      "DRAM_RAS_ONLY"
     ],
     [
       "3138fb6a-efab-4937-8633-063bf7478e50",
