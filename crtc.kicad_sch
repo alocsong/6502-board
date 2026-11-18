@@ -5821,7 +5821,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23b06270-6920-466a-87be-d73b9636c80b")
-		(property "Reference" "U38"
+		(property "Reference" "U35"
 			(at 140.208 97.536 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5939,7 +5939,7 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/c3417104-fce9-4143-9885-45facbfdb109"
-					(reference "U38")
+					(reference "U35")
 					(unit 1)
 				)
 			)
@@ -5956,7 +5956,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "553458ee-df66-4459-943d-946c14bd601d")
-		(property "Reference" "U36"
+		(property "Reference" "U33"
 			(at 82.55 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6137,7 +6137,7 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/c3417104-fce9-4143-9885-45facbfdb109"
-					(reference "U36")
+					(reference "U33")
 					(unit 1)
 				)
 			)
@@ -6155,7 +6155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7301aa98-572c-4b29-b9f2-57a6aeab12cc")
-		(property "Reference" "U45"
+		(property "Reference" "U40"
 			(at 263.7633 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6297,7 +6297,7 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/c3417104-fce9-4143-9885-45facbfdb109"
-					(reference "U45")
+					(reference "U40")
 					(unit 1)
 				)
 			)
@@ -6436,7 +6436,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99f8fc49-e628-406c-b84d-09191a5a5554")
-		(property "Reference" "U43"
+		(property "Reference" "U38"
 			(at 212.9633 146.05 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6554,7 +6554,7 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/c3417104-fce9-4143-9885-45facbfdb109"
-					(reference "U43")
+					(reference "U38")
 					(unit 1)
 				)
 			)
@@ -6572,7 +6572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a08b96a0-baf6-46d9-8458-ad2d77e8fa63")
-		(property "Reference" "J2"
+		(property "Reference" "J3"
 			(at 375.92 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6673,7 +6673,7 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/c3417104-fce9-4143-9885-45facbfdb109"
-					(reference "J2")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -6691,7 +6691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bc22b1ea-334d-4a92-9d8e-0b47d26be51a")
-		(property "Reference" "U46"
+		(property "Reference" "U42"
 			(at 306.9433 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6833,7 +6833,7 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/c3417104-fce9-4143-9885-45facbfdb109"
-					(reference "U46")
+					(reference "U42")
 					(unit 1)
 				)
 			)
@@ -6850,7 +6850,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bc8add5c-db00-459e-acea-741759d5db84")
-		(property "Reference" "U37"
+		(property "Reference" "U34"
 			(at 140.716 50.546 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6968,7 +6968,7 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/c3417104-fce9-4143-9885-45facbfdb109"
-					(reference "U37")
+					(reference "U34")
 					(unit 1)
 				)
 			)
@@ -6986,7 +6986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bcaf42b6-5b49-425a-8b20-664b614af38d")
-		(property "Reference" "U40"
+		(property "Reference" "U39"
 			(at 253.6033 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7128,7 +7128,7 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/c3417104-fce9-4143-9885-45facbfdb109"
-					(reference "U40")
+					(reference "U39")
 					(unit 1)
 				)
 			)
@@ -7146,7 +7146,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d8ecfe9a-3f2d-4fc9-9448-8e4a36dc5345")
-		(property "Reference" "U39"
+		(property "Reference" "U37"
 			(at 212.9633 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7264,7 +7264,7 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/c3417104-fce9-4143-9885-45facbfdb109"
-					(reference "U39")
+					(reference "U37")
 					(unit 1)
 				)
 			)
@@ -7282,7 +7282,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbfb3127-0155-4ec7-9c80-79032dc32a19")
-		(property "Reference" "U42"
+		(property "Reference" "U36"
 			(at 161.29 217.17 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7410,7 +7410,7 @@
 		(instances
 			(project "ALOC-6502"
 				(path "/c3417104-fce9-4143-9885-45facbfdb109"
-					(reference "U42")
+					(reference "U36")
 					(unit 1)
 				)
 			)
