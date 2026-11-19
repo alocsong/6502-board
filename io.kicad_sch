@@ -12953,7 +12953,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 144.78) (xy 49.53 144.78)
+			(xy 44.45 144.78) (xy 50.8 144.78)
 		)
 		(stroke
 			(width 0)
@@ -13120,16 +13120,6 @@
 			(type default)
 		)
 		(uuid "3405a46a-ca42-435f-8fa2-4e53ab1a86c9")
-	)
-	(wire
-		(pts
-			(xy 55.88 153.67) (xy 57.15 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35cd53c1-cadc-4871-86a0-e76bfc71fc4e")
 	)
 	(wire
 		(pts
@@ -13523,7 +13513,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 153.67) (xy 77.47 153.67)
+			(xy 77.47 153.67) (xy 76.2 153.67)
 		)
 		(stroke
 			(width 0)
@@ -13643,7 +13633,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 135.89) (xy 49.53 135.89)
+			(xy 44.45 135.89) (xy 50.8 135.89)
 		)
 		(stroke
 			(width 0)
@@ -14273,7 +14263,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 144.78) (xy 77.47 144.78)
+			(xy 77.47 144.78) (xy 76.2 144.78)
 		)
 		(stroke
 			(width 0)
@@ -14894,16 +14884,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 135.89) (xy 57.15 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca79bc4e-99bd-4b7b-9a69-f84a8d8b2b37")
-	)
-	(wire
-		(pts
 			(xy 83.82 38.1) (xy 81.28 38.1)
 		)
 		(stroke
@@ -14924,7 +14904,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 153.67) (xy 49.53 153.67)
+			(xy 44.45 153.67) (xy 50.8 153.67)
 		)
 		(stroke
 			(width 0)
@@ -15135,16 +15115,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 144.78) (xy 57.15 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e24b4544-9b9c-4756-b99b-933c25c1aaf3")
-	)
-	(wire
-		(pts
 			(xy 167.64 107.95) (xy 191.77 107.95)
 		)
 		(stroke
@@ -15285,7 +15255,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 135.89) (xy 77.47 135.89)
+			(xy 77.47 135.89) (xy 76.2 135.89)
 		)
 		(stroke
 			(width 0)
@@ -16805,8 +16775,10 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 73.66 135.89 180)
+		(lib_name "RES_2")
+		(lib_id "my_retro_chip:RES")
+		(at 73.66 151.13 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16814,9 +16786,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "0c0e39eb-71bb-44fb-9270-b7ce19762cda")
-		(property "Reference" "D10"
-			(at 72.644 133.096 0)
+		(uuid "0dbccc72-e55b-49ee-aa0e-8cd38fa906a3")
+		(property "Reference" "R21"
+			(at 74.422 151.638 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16825,8 +16797,8 @@
 				)
 			)
 		)
-		(property "Value" "EA13"
-			(at 73.66 139.192 0)
+		(property "Value" "1K"
+			(at 72.644 155.956 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16835,8 +16807,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 135.89 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 73.66 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16847,7 +16819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 135.89 0)
+			(at 73.66 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16857,8 +16829,8 @@
 				)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 73.66 135.89 0)
+		(property "Description" ""
+			(at 73.66 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16868,33 +16840,16 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
+		(pin ""
+			(uuid "2bdbdddd-fec1-4fb1-8516-80b2d34b8106")
 		)
-		(pin "2"
-			(uuid "50dfbf50-1c7d-4a6e-9401-62c514b32aae")
-		)
-		(pin "1"
-			(uuid "f6636285-30a2-4222-a13d-fda4a582ebc2")
+		(pin ""
+			(uuid "7da06723-d3c1-4e99-9a1b-65d8aa43064a")
 		)
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "D10")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "D8")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -18193,92 +18148,6 @@
 		)
 	)
 	(symbol
-		(lib_id "my_retro_chip:RES")
-		(at 82.55 142.24 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2991b977-4f81-4511-81b5-4a97c3648647")
-		(property "Reference" "R20"
-			(at 83.312 142.748 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 81.534 147.066 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 82.55 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "d7ab969c-4a38-4cbb-b217-ef19b22e81bb")
-		)
-		(pin ""
-			(uuid "ed3a4f0a-e190-4808-9d42-593fdb121b83")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 262.89 132.08 0)
 		(unit 1)
@@ -18350,6 +18219,87 @@
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
 					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RES_8")
+		(lib_id "my_retro_chip:RES")
+		(at 73.66 133.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "2ae57e55-64bf-4e2d-b193-6d5bf446ef54")
+		(property "Reference" "R19"
+			(at 74.422 133.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 72.644 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 73.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "2122277c-3a67-4fa2-94dd-b6e7f991d7a7")
+		)
+		(pin ""
+			(uuid "7bef7c3c-b46b-4e7d-92a8-a5ed4e3a04d3")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -20322,6 +20272,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 54.61 153.67 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4e4581e0-0e6c-4d36-8d4c-2117e927e851")
+		(property "Reference" "D9"
+			(at 55.626 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EA13"
+			(at 54.61 156.972 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 54.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c6e7849c-2157-4569-8bce-1b4616af4953")
+		)
+		(pin "1"
+			(uuid "37d779a7-2a18-4432-bcb6-27d0022d164c")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 185.42 40.64 180)
 		(unit 1)
@@ -20693,103 +20734,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 60.96 135.89 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "543d2801-ca81-4ea0-b9e6-8de5fc0e2e22")
-		(property "Reference" "D7"
-			(at 61.976 133.096 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EA13"
-			(at 60.96 139.192 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 60.96 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 60.96 135.89 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a22bd9c8-ee7d-4633-a531-060ca0d28760")
-		)
-		(pin "1"
-			(uuid "e4ec14c8-b5f8-47a5-838f-a48c65e22551")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 237.49 114.3 0)
 		(unit 1)
@@ -20868,102 +20812,6 @@
 			(project "io"
 				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR0165")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 73.66 144.78 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "55939993-88ab-48c3-8600-77164bfe5cea")
-		(property "Reference" "D11"
-			(at 72.644 141.986 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EA13"
-			(at 73.66 148.082 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 73.66 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 73.66 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 73.66 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "937cd2ea-e279-44c3-8fbc-1699aafd9c10")
-		)
-		(pin "1"
-			(uuid "2d4e4182-b036-440a-933f-26e72b67e460")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "D11")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -21120,6 +20968,86 @@
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
 					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "RES_6")
+		(lib_id "my_retro_chip:RES")
+		(at 60.96 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "57026a4a-1fc4-4165-a289-261095e9c75b")
+		(property "Reference" "R16"
+			(at 60.198 133.858 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 61.976 138.176 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 60.96 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d54f1f8f-a408-4c0b-a14d-81c013f4bc1d")
+		)
+		(pin ""
+			(uuid "753d79db-6a0c-4e99-9044-30657809b030")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -22938,92 +22866,6 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_3")
-		(lib_id "my_retro_chip:RES")
-		(at 52.07 151.13 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "72306bf9-2c14-4dce-bca2-6b36675d64b1")
-		(property "Reference" "R18"
-			(at 51.308 151.638 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 53.086 155.956 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 52.07 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "4bd0f904-9abe-464b-9ab9-73ce02671696")
-		)
-		(pin ""
-			(uuid "3e0be551-87e5-4195-a62c-6dcb00ed61da")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GNDA")
 		(at 265.43 90.17 0)
 		(unit 1)
@@ -23889,6 +23731,86 @@
 		)
 	)
 	(symbol
+		(lib_name "RES_5")
+		(lib_id "my_retro_chip:RES")
+		(at 60.96 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82868504-9245-4c22-aeaa-351ea8467ce0")
+		(property "Reference" "R17"
+			(at 60.198 142.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 61.976 147.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "d4d01886-18c8-473d-91f2-10f64924fba7")
+		)
+		(pin ""
+			(uuid "805963b5-9395-4150-9505-5fa3b7711a2a")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 109.22 168.91 0)
 		(unit 1)
@@ -23960,93 +23882,6 @@
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
 					(reference "#PWR0114")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "RES_2")
-		(lib_id "my_retro_chip:RES")
-		(at 82.55 151.13 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "84e5bca5-d272-43b0-882c-38f68f957840")
-		(property "Reference" "R21"
-			(at 83.312 151.638 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 81.534 155.956 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 82.55 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 151.13 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "627839ee-c935-4cbc-9bfc-cd387fb51fe5")
-		)
-		(pin ""
-			(uuid "705be59c-37b1-4613-8537-ea0092e30321")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -24680,6 +24515,86 @@
 		)
 	)
 	(symbol
+		(lib_id "my_retro_chip:RES")
+		(at 73.66 142.24 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "949bcdf3-b547-4eba-8526-ca4d5f69d4f5")
+		(property "Reference" "R20"
+			(at 74.422 142.748 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 72.644 147.066 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 73.66 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 73.66 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "090ec3ff-879a-4a7c-a4ae-7c44f8fde699")
+		)
+		(pin ""
+			(uuid "05271e2a-f84b-4e46-ae82-4f7e8aa5fa1f")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "RES_14")
 		(lib_id "my_retro_chip:RES")
 		(at 231.14 133.35 0)
@@ -25204,7 +25119,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 73.66 153.67 180)
+		(at 81.28 144.78 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25212,9 +25127,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "992f41cc-545a-4f6e-9c2b-7f2f8d19fd72")
-		(property "Reference" "D12"
-			(at 72.644 150.876 0)
+		(uuid "98352217-11f6-4337-a294-dfa5372d3bae")
+		(property "Reference" "D11"
+			(at 80.264 141.986 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25224,7 +25139,7 @@
 			)
 		)
 		(property "Value" "EA13"
-			(at 73.66 156.972 0)
+			(at 81.28 148.082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25234,7 +25149,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 153.67 0)
+			(at 81.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25245,7 +25160,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 153.67 0)
+			(at 81.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25256,7 +25171,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 73.66 153.67 0)
+			(at 81.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25267,7 +25182,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 73.66 153.67 0)
+			(at 81.28 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25278,21 +25193,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "14b4c179-3e21-48d4-adb5-abac0ad21eac")
+			(uuid "5b56a63c-dc4c-4052-859c-077f634d2703")
 		)
 		(pin "1"
-			(uuid "9ae86393-abab-42e1-b29e-06fdde553b50")
+			(uuid "8daa577f-990f-4673-b534-c06b8c0c3366")
 		)
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "D12")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "D10")
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -26135,6 +26044,86 @@
 		)
 	)
 	(symbol
+		(lib_name "RES_3")
+		(lib_id "my_retro_chip:RES")
+		(at 60.96 151.13 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a615bfd9-d3ef-41d7-81ce-adfdcb3618c8")
+		(property "Reference" "R18"
+			(at 60.198 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1K"
+			(at 61.976 155.956 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 60.96 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.96 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.96 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "aa5379f9-0ab5-45b0-88f7-32db01e99316")
+		)
+		(pin ""
+			(uuid "1972f5d7-b91d-4922-b68f-b8d496a5de61")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "RES_18")
 		(lib_id "my_retro_chip:RES")
 		(at 124.46 154.94 0)
@@ -26333,92 +26322,6 @@
 				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "U49")
 					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "RES_6")
-		(lib_id "my_retro_chip:RES")
-		(at 52.07 133.35 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ab0bf1bb-5271-420b-a3ef-7d791f3561b4")
-		(property "Reference" "R16"
-			(at 51.308 133.858 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 53.086 138.176 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 52.07 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "f8df36a9-cf12-4232-9ac7-de769b9f28f1")
-		)
-		(pin ""
-			(uuid "96154933-11cd-473c-90a2-72d070fb5ef9")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "R16")
-					(unit 1)
 				)
 			)
 		)
@@ -27000,6 +26903,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 54.61 144.78 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b3c866ac-792e-483d-8ec8-d23d616bbb28")
+		(property "Reference" "D8"
+			(at 55.626 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EA13"
+			(at 54.61 148.082 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 54.61 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9fefca91-4902-439d-a949-99acf97a246b")
+		)
+		(pin "1"
+			(uuid "1ba8273e-043e-4470-8bdd-1694fab4b837")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDREF")
 		(at 116.84 176.53 0)
 		(unit 1)
@@ -27242,190 +27236,6 @@
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
 					(reference "#PWR0120")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 60.96 153.67 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b73f3511-44e8-4838-a5b5-1c910ff7a4ca")
-		(property "Reference" "D9"
-			(at 61.976 150.876 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EA13"
-			(at 60.96 156.972 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 60.96 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 60.96 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a446e269-6ac8-417c-a233-02531bdaf9df")
-		)
-		(pin "1"
-			(uuid "39bd5acc-e608-423a-8bf6-1b01cd244692")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "D9")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_name "RES_8")
-		(lib_id "my_retro_chip:RES")
-		(at 82.55 133.35 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b7545125-90bf-409b-9ab7-c523d1a45f8a")
-		(property "Reference" "R19"
-			(at 83.312 133.858 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1K"
-			(at 81.534 138.176 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 82.55 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "cdbcf450-74f4-4aca-92e2-7bfe6bc95764")
-		)
-		(pin ""
-			(uuid "99492c7c-0081-4966-8d29-ca97963a7b38")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "R19")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -28889,6 +28699,97 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 54.61 135.89 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "d5967c28-0178-4b6c-ae37-f8e02700d69e")
+		(property "Reference" "D7"
+			(at 55.626 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EA13"
+			(at 54.61 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 54.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 54.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 54.61 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "34246afe-1bdc-4021-a151-1cff4e8e1222")
+		)
+		(pin "1"
+			(uuid "1d236a3a-2915-472b-bfda-02730be3bd62")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "RES_12")
 		(lib_id "my_retro_chip:RES")
 		(at 240.03 137.16 90)
@@ -29550,9 +29451,8 @@
 		)
 	)
 	(symbol
-		(lib_name "RES_5")
-		(lib_id "my_retro_chip:RES")
-		(at 52.07 142.24 0)
+		(lib_id "Device:LED")
+		(at 81.28 153.67 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29560,9 +29460,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e01dceee-3171-4a16-b40c-ff8ca18a321a")
-		(property "Reference" "R17"
-			(at 51.308 142.748 0)
+		(uuid "e08bb8ae-0675-4eb5-8cea-b5825a582c25")
+		(property "Reference" "D12"
+			(at 80.264 150.876 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29571,8 +29471,8 @@
 				)
 			)
 		)
-		(property "Value" "1K"
-			(at 53.086 147.066 0)
+		(property "Value" "EA13"
+			(at 81.28 156.972 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29581,8 +29481,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 52.07 142.24 0)
+		(property "Footprint" ""
+			(at 81.28 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29593,7 +29493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 142.24 0)
+			(at 81.28 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29603,8 +29503,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 52.07 142.24 0)
+		(property "Description" "Light emitting diode"
+			(at 81.28 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29614,22 +29514,27 @@
 				)
 			)
 		)
-		(pin ""
-			(uuid "1d78a8c2-2101-4710-a7db-f315fb0dd531")
+		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
 		)
-		(pin ""
-			(uuid "02cf43f3-37ef-4ba5-9f48-bf6655a68437")
+		(pin "2"
+			(uuid "bafc2bfb-af9f-44d4-ac28-4c8a97a2f5a9")
+		)
+		(pin "1"
+			(uuid "5ae86da6-71d9-4014-831f-6c69b43bd199")
 		)
 		(instances
 			(project "ALOC-6502"
 				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "R17")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -30256,6 +30161,96 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:LED")
+		(at 81.28 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ef5ed383-6a64-42c2-b34a-405a7f9dbaac")
+		(property "Reference" "D10"
+			(at 80.264 133.096 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "EA13"
+			(at 81.28 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 81.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 81.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 81.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 81.28 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fcad05bf-f59d-4728-b124-ebc1c5d557fa")
+		)
+		(pin "1"
+			(uuid "540b4472-5223-4e8b-802e-cb8329cbbc84")
+		)
+		(instances
+			(project "ALOC-6502"
+				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDA")
 		(at 209.55 162.56 0)
 		(unit 1)
@@ -30334,103 +30329,6 @@
 			(project "io"
 				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 60.96 144.78 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f23e1afa-8311-4b50-bc16-3c768d22c505")
-		(property "Reference" "D8"
-			(at 61.976 141.986 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "EA13"
-			(at 60.96 148.082 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 60.96 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 60.96 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "af57f1d3-4f66-4591-8028-53a774facd93")
-		)
-		(pin "1"
-			(uuid "c146cadc-1208-43d4-ba38-287578b5c113")
-		)
-		(instances
-			(project "ALOC-6502"
-				(path "/07dd8adc-70dc-4aeb-a3c2-6bc1d3f552fd"
-					(reference "D8")
-					(unit 1)
-				)
-			)
-			(project "io"
-				(path "/df5cf8e7-eab4-42ef-bc8b-6852bb167ca4"
-					(reference "D6")
 					(unit 1)
 				)
 			)
