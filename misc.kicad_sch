@@ -10013,7 +10013,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 60.96) (xy 270.51 60.96)
+			(xy 127 60.96) (xy 267.97 60.96)
 		)
 		(stroke
 			(width 0)
@@ -11103,7 +11103,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 81.28) (xy 270.51 81.28)
+			(xy 251.46 81.28) (xy 267.97 81.28)
 		)
 		(stroke
 			(width 0)
@@ -13555,7 +13555,7 @@
 	)
 	(global_label "~{CFFF}"
 		(shape output)
-		(at 270.51 60.96 0)
+		(at 267.97 60.96 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13565,7 +13565,7 @@
 		)
 		(uuid "2929baaa-8fcd-4eed-a6a4-abad0b803b06")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.031 60.96 0)
+			(at 275.491 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13579,7 +13579,7 @@
 	)
 	(global_label "CFFF"
 		(shape output)
-		(at 270.51 81.28 0)
+		(at 267.97 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13589,7 +13589,7 @@
 		)
 		(uuid "3fb360cc-3403-4582-99d5-4bf2605ab0db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.031 81.28 0)
+			(at 275.491 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
