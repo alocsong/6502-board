@@ -14021,6 +14021,16 @@
 		)
 		(uuid "93fd7b15-8a11-4de6-8b88-852c29b67c7b")
 	)
+	(label "CFFF"
+		(at 113.03 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9415bed7-7f59-4272-8d62-842cf58d5d54")
+	)
 	(label "LΦ_{2}"
 		(at 167.64 49.53 0)
 		(effects
