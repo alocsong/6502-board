@@ -11582,7 +11582,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 81.28) (xy 265.43 81.28)
+			(xy 242.57 81.28) (xy 266.7 81.28)
 		)
 		(stroke
 			(width 0)
@@ -14429,7 +14429,7 @@
 	)
 	(global_label "CFFF"
 		(shape output)
-		(at 265.43 81.28 0)
+		(at 266.7 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14439,7 +14439,7 @@
 		)
 		(uuid "3fb360cc-3403-4582-99d5-4bf2605ab0db")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 272.951 81.28 0)
+			(at 274.221 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
