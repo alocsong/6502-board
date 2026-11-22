@@ -9670,7 +9670,7 @@
 		(uuid "3bcf30a7-18d2-416c-8e03-26ec7e976616")
 	)
 	(junction
-		(at 101.6 113.03)
+		(at 106.68 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3d4a0721-d412-420e-9a18-5a72712270d7")
@@ -9730,7 +9730,7 @@
 		(uuid "58f57b08-ffa8-419f-97cd-ee159ef88f37")
 	)
 	(junction
-		(at 120.65 113.03)
+		(at 125.73 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f21abd0-a142-4691-99bc-7a1c1ee5ff33")
@@ -9766,7 +9766,7 @@
 		(uuid "964ad853-65a0-49ee-a0f9-e247ab201a7e")
 	)
 	(junction
-		(at 25.4 113.03)
+		(at 30.48 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97ce2215-196d-45ae-83a0-4b63b189149d")
@@ -9808,7 +9808,7 @@
 		(uuid "b537efb7-5635-4aa0-95df-d510ff0c7bef")
 	)
 	(junction
-		(at 82.55 113.03)
+		(at 87.63 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c4a9c0ea-9ce6-40b9-a786-1b821124d989")
@@ -9868,13 +9868,13 @@
 		(uuid "d595d65a-a9ed-415e-8467-25f682dac4d1")
 	)
 	(junction
-		(at 44.45 113.03)
+		(at 49.53 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d634d566-1794-4570-9b76-0d663b441cd5")
 	)
 	(junction
-		(at 63.5 113.03)
+		(at 68.58 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d7f4ff75-c7ce-4ec3-a21f-8bb81e41a8f0")
@@ -10422,7 +10422,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 113.03) (xy 110.49 113.03)
+			(xy 113.03 111.76) (xy 115.57 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10432,7 +10432,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 111.76) (xy 25.4 114.3)
+			(xy 30.48 110.49) (xy 30.48 113.03)
 		)
 		(stroke
 			(width 0)
@@ -10512,7 +10512,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 113.03) (xy 101.6 116.84)
+			(xy 106.68 111.76) (xy 106.68 115.57)
 		)
 		(stroke
 			(width 0)
@@ -10702,7 +10702,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 113.03) (xy 104.14 113.03)
+			(xy 106.68 111.76) (xy 109.22 111.76)
 		)
 		(stroke
 			(width 0)
@@ -10842,7 +10842,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 113.03) (xy 74.93 115.57)
+			(xy 80.01 111.76) (xy 80.01 114.3)
 		)
 		(stroke
 			(width 0)
@@ -10882,7 +10882,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 113.03) (xy 91.44 113.03)
+			(xy 93.98 111.76) (xy 96.52 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11052,7 +11052,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 113.03) (xy 48.26 113.03)
+			(xy 49.53 111.76) (xy 53.34 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11162,7 +11162,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 101.6 113.03)
+			(xy 106.68 110.49) (xy 106.68 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11272,7 +11272,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 113.03) (xy 123.19 113.03)
+			(xy 125.73 111.76) (xy 128.27 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11312,7 +11312,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 113.03) (xy 36.83 115.57)
+			(xy 41.91 111.76) (xy 41.91 114.3)
 		)
 		(stroke
 			(width 0)
@@ -11392,7 +11392,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 137.16) (xy 120.65 139.7)
+			(xy 125.73 135.89) (xy 125.73 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11422,7 +11422,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 137.16) (xy 82.55 139.7)
+			(xy 87.63 135.89) (xy 87.63 138.43)
 		)
 		(stroke
 			(width 0)
@@ -11542,7 +11542,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 113.03) (xy 55.88 113.03)
+			(xy 57.15 111.76) (xy 60.96 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11622,7 +11622,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 113.03) (xy 129.54 113.03)
+			(xy 132.08 111.76) (xy 134.62 111.76)
 		)
 		(stroke
 			(width 0)
@@ -11822,7 +11822,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 111.76) (xy 63.5 114.3)
+			(xy 68.58 110.49) (xy 68.58 113.03)
 		)
 		(stroke
 			(width 0)
@@ -12112,7 +12112,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 113.03) (xy 29.21 113.03)
+			(xy 30.48 111.76) (xy 34.29 111.76)
 		)
 		(stroke
 			(width 0)
@@ -12432,7 +12432,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 113.03) (xy 85.09 113.03)
+			(xy 87.63 111.76) (xy 90.17 111.76)
 		)
 		(stroke
 			(width 0)
@@ -12512,7 +12512,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 111.76) (xy 44.45 114.3)
+			(xy 49.53 110.49) (xy 49.53 113.03)
 		)
 		(stroke
 			(width 0)
@@ -12622,7 +12622,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 113.03) (xy 120.65 116.84)
+			(xy 125.73 111.76) (xy 125.73 115.57)
 		)
 		(stroke
 			(width 0)
@@ -12782,7 +12782,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 113.03) (xy 129.54 115.57)
+			(xy 134.62 111.76) (xy 134.62 114.3)
 		)
 		(stroke
 			(width 0)
@@ -12822,7 +12822,7 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 113.03) (xy 110.49 115.57)
+			(xy 115.57 111.76) (xy 115.57 114.3)
 		)
 		(stroke
 			(width 0)
@@ -12862,7 +12862,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 113.03) (xy 67.31 113.03)
+			(xy 68.58 111.76) (xy 72.39 111.76)
 		)
 		(stroke
 			(width 0)
@@ -12872,7 +12872,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 137.16) (xy 101.6 139.7)
+			(xy 106.68 135.89) (xy 106.68 138.43)
 		)
 		(stroke
 			(width 0)
@@ -13042,7 +13042,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 113.03) (xy 91.44 115.57)
+			(xy 96.52 111.76) (xy 96.52 114.3)
 		)
 		(stroke
 			(width 0)
@@ -13212,7 +13212,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 113.03) (xy 55.88 115.57)
+			(xy 60.96 111.76) (xy 60.96 114.3)
 		)
 		(stroke
 			(width 0)
@@ -13252,7 +13252,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 113.03) (xy 36.83 113.03)
+			(xy 38.1 111.76) (xy 41.91 111.76)
 		)
 		(stroke
 			(width 0)
@@ -13282,7 +13282,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 113.03) (xy 74.93 113.03)
+			(xy 76.2 111.76) (xy 80.01 111.76)
 		)
 		(stroke
 			(width 0)
@@ -13292,7 +13292,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 111.76) (xy 82.55 116.84)
+			(xy 87.63 110.49) (xy 87.63 115.57)
 		)
 		(stroke
 			(width 0)
@@ -13402,7 +13402,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 111.76) (xy 120.65 113.03)
+			(xy 125.73 110.49) (xy 125.73 111.76)
 		)
 		(stroke
 			(width 0)
@@ -15060,7 +15060,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 101.6 111.76 0)
+		(at 106.68 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15070,7 +15070,7 @@
 		(dnp no)
 		(uuid "124cdad0-4874-4b61-aab5-09a05e933ae5")
 		(property "Reference" "#PWR0239"
-			(at 101.6 115.57 0)
+			(at 106.68 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15081,7 +15081,7 @@
 			)
 		)
 		(property "Value" "MVCC"
-			(at 101.6 107.442 0)
+			(at 106.68 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15091,7 +15091,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 111.76 0)
+			(at 106.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15102,7 +15102,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 111.76 0)
+			(at 106.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15113,7 +15113,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 101.6 111.76 0)
+			(at 106.68 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15779,7 +15779,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4013")
-		(at 120.65 127 0)
+		(at 125.73 125.73 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15789,7 +15789,7 @@
 		(dnp no)
 		(uuid "1a460825-71ea-4894-9710-c46afa36446e")
 		(property "Reference" "U59"
-			(at 114.808 115.316 0)
+			(at 119.888 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15800,7 +15800,7 @@
 			)
 		)
 		(property "Value" "4013"
-			(at 118.11 127 0)
+			(at 123.19 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15811,7 +15811,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15822,7 +15822,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
-			(at 120.65 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15833,7 +15833,7 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
-			(at 120.65 127 0)
+			(at 125.73 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16389,7 +16389,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS21")
-		(at 25.4 127 0)
+		(at 30.48 125.73 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16399,7 +16399,7 @@
 		(dnp no)
 		(uuid "295ad663-a813-4f5d-9918-09970dee17e9")
 		(property "Reference" "U46"
-			(at 18.542 114.554 0)
+			(at 23.622 113.284 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16410,7 +16410,7 @@
 			)
 		)
 		(property "Value" "74HC21"
-			(at 21.59 127.254 0)
+			(at 26.67 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16421,7 +16421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 127 0)
+			(at 30.48 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16432,7 +16432,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS21"
-			(at 25.4 127 0)
+			(at 30.48 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16443,7 +16443,7 @@
 			)
 		)
 		(property "Description" "Dual 4-input AND"
-			(at 25.4 127 0)
+			(at 30.48 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16593,7 +16593,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 25.4 139.7 0)
+		(at 30.48 138.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16605,7 +16605,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b5b10e0-7c83-4ec6-b9c5-fba872daddff")
 		(property "Reference" "#PWR0219"
-			(at 25.4 146.05 0)
+			(at 30.48 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16616,7 +16616,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 25.3999 143.51 90)
+			(at 30.4799 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16627,7 +16627,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 139.7 0)
+			(at 30.48 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16638,7 +16638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 139.7 0)
+			(at 30.48 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16649,7 +16649,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 25.4 139.7 0)
+			(at 30.48 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16852,7 +16852,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 44.45 139.7 0)
+		(at 49.53 138.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -16864,7 +16864,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d459865-0535-4823-b560-cdaec9806ad8")
 		(property "Reference" "#PWR0224"
-			(at 44.45 146.05 0)
+			(at 49.53 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16875,7 +16875,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 44.4499 143.51 90)
+			(at 49.5299 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16886,7 +16886,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 139.7 0)
+			(at 49.53 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16897,7 +16897,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 139.7 0)
+			(at 49.53 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16908,7 +16908,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 44.45 139.7 0)
+			(at 49.53 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17061,7 +17061,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 129.54 115.57 0)
+		(at 134.62 114.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17073,7 +17073,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d77b314-8c7a-400c-a075-b4f90104343c")
 		(property "Reference" "#PWR0248"
-			(at 129.54 121.92 0)
+			(at 134.62 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17084,7 +17084,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 129.5399 119.38 90)
+			(at 134.6199 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17095,7 +17095,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 115.57 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17106,7 +17106,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 115.57 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17117,7 +17117,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 129.54 115.57 0)
+			(at 134.62 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17491,7 +17491,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 82.55 139.7 0)
+		(at 87.63 138.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -17503,7 +17503,7 @@
 		(fields_autoplaced yes)
 		(uuid "38b1f004-e36d-4be0-a650-9c2364177af8")
 		(property "Reference" "#PWR0230"
-			(at 82.55 146.05 0)
+			(at 87.63 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17514,7 +17514,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 82.5499 143.51 90)
+			(at 87.6299 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17525,7 +17525,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 139.7 0)
+			(at 87.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17536,7 +17536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 139.7 0)
+			(at 87.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17547,7 +17547,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 82.55 139.7 0)
+			(at 87.63 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17957,7 +17957,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 82.55 111.76 0)
+		(at 87.63 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17967,7 +17967,7 @@
 		(dnp no)
 		(uuid "3beeb262-a8c6-438b-aebe-c23ba571fc8a")
 		(property "Reference" "#PWR0228"
-			(at 82.55 115.57 0)
+			(at 87.63 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17978,7 +17978,7 @@
 			)
 		)
 		(property "Value" "MVCC"
-			(at 82.55 107.442 0)
+			(at 87.63 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17988,7 +17988,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 111.76 0)
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17999,7 +17999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 111.76 0)
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18010,7 +18010,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 82.55 111.76 0)
+			(at 87.63 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18751,7 +18751,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4013")
-		(at 82.55 127 0)
+		(at 87.63 125.73 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18761,7 +18761,7 @@
 		(dnp no)
 		(uuid "4daa74dc-cc0d-48cb-935c-31a75eb8f97f")
 		(property "Reference" "U55"
-			(at 76.454 115.316 0)
+			(at 81.534 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18772,7 +18772,7 @@
 			)
 		)
 		(property "Value" "4013"
-			(at 79.756 127.254 0)
+			(at 84.836 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18783,7 +18783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 82.55 127 0)
+			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18794,7 +18794,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
-			(at 82.55 127 0)
+			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18805,7 +18805,7 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
-			(at 82.55 127 0)
+			(at 87.63 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20386,7 +20386,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 120.65 139.7 0)
+		(at 125.73 138.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20398,7 +20398,7 @@
 		(fields_autoplaced yes)
 		(uuid "60f75bfb-e1a9-4b33-9fba-8b750b6a34ee")
 		(property "Reference" "#PWR0247"
-			(at 120.65 146.05 0)
+			(at 125.73 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20409,7 +20409,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 120.6499 143.51 90)
+			(at 125.7299 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20420,7 +20420,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 139.7 0)
+			(at 125.73 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20431,7 +20431,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 139.7 0)
+			(at 125.73 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20442,7 +20442,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 120.65 139.7 0)
+			(at 125.73 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20679,7 +20679,7 @@
 	(symbol
 		(lib_name "CAP_S_14")
 		(lib_id "my_retro_chip:CAP_S")
-		(at 80.01 113.03 90)
+		(at 85.09 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20689,7 +20689,7 @@
 		(dnp no)
 		(uuid "65b38202-f130-466b-b3b7-725bbb7ccadd")
 		(property "Reference" "C73"
-			(at 88.9 110.236 90)
+			(at 93.98 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20700,7 +20700,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 87.122 115.824 90)
+			(at 92.202 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20710,7 +20710,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 80.01 113.03 0)
+			(at 85.09 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20721,7 +20721,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 113.03 0)
+			(at 85.09 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20732,7 +20732,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 80.01 113.03 0)
+			(at 85.09 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21225,7 +21225,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 101.6 139.7 0)
+		(at 106.68 138.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -21237,7 +21237,7 @@
 		(fields_autoplaced yes)
 		(uuid "71eba5ea-d28c-41e7-9d50-ad5d5ec080b4")
 		(property "Reference" "#PWR0240"
-			(at 101.6 146.05 0)
+			(at 106.68 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21248,7 +21248,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 101.5999 143.51 90)
+			(at 106.6799 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21259,7 +21259,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 139.7 0)
+			(at 106.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21270,7 +21270,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 139.7 0)
+			(at 106.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21281,7 +21281,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 101.6 139.7 0)
+			(at 106.68 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21777,7 +21777,7 @@
 	(symbol
 		(lib_name "CAP_S_9")
 		(lib_id "my_retro_chip:CAP_S")
-		(at 24.13 113.03 90)
+		(at 29.21 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21787,7 +21787,7 @@
 		(dnp no)
 		(uuid "86fa9044-8fdc-4385-8c8b-8d1c4520a584")
 		(property "Reference" "C69"
-			(at 33.02 110.236 90)
+			(at 38.1 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21798,7 +21798,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 34.29 115.316 90)
+			(at 39.37 114.046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21808,7 +21808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 113.03 0)
+			(at 29.21 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21819,7 +21819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 113.03 0)
+			(at 29.21 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21830,7 +21830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 24.13 113.03 0)
+			(at 29.21 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22740,7 +22740,7 @@
 	)
 	(symbol
 		(lib_id "4xxx:4013")
-		(at 101.6 127 0)
+		(at 106.68 125.73 0)
 		(unit 3)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22750,7 +22750,7 @@
 		(dnp no)
 		(uuid "9d7fc123-d889-4842-a574-8575e70c1220")
 		(property "Reference" "U58"
-			(at 95.758 115.316 0)
+			(at 100.838 114.046 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22761,7 +22761,7 @@
 			)
 		)
 		(property "Value" "4013"
-			(at 99.06 127.254 0)
+			(at 104.14 125.984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22772,7 +22772,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 127 0)
+			(at 106.68 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22783,7 +22783,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.onsemi.com/pub/Collateral/MC14013B-D.PDF"
-			(at 101.6 127 0)
+			(at 106.68 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22794,7 +22794,7 @@
 			)
 		)
 		(property "Description" "Dual D  FlipFlop, Set & reset"
-			(at 101.6 127 0)
+			(at 106.68 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22863,7 +22863,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 36.83 115.57 0)
+		(at 41.91 114.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -22875,7 +22875,7 @@
 		(fields_autoplaced yes)
 		(uuid "a144d162-1054-4109-b679-15de5993d604")
 		(property "Reference" "#PWR0214"
-			(at 36.83 121.92 0)
+			(at 41.91 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22886,7 +22886,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 36.8299 119.38 90)
+			(at 41.9099 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22897,7 +22897,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 115.57 0)
+			(at 41.91 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22908,7 +22908,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 115.57 0)
+			(at 41.91 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22919,7 +22919,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 36.83 115.57 0)
+			(at 41.91 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23326,7 +23326,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74LS32")
-		(at 63.5 127 0)
+		(at 68.58 125.73 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23336,7 +23336,7 @@
 		(dnp no)
 		(uuid "a906054b-2919-4bac-a654-278a3cca6d81")
 		(property "Reference" "U51"
-			(at 59.436 114.808 0)
+			(at 64.516 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23346,7 +23346,7 @@
 			)
 		)
 		(property "Value" "74HC32"
-			(at 63.5 127 0)
+			(at 68.58 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23356,7 +23356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 127 0)
+			(at 68.58 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23367,7 +23367,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS32"
-			(at 63.5 127 0)
+			(at 68.58 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23378,7 +23378,7 @@
 			)
 		)
 		(property "Description" "Quad 2-input OR"
-			(at 63.5 127 0)
+			(at 68.58 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23792,7 +23792,7 @@
 	(symbol
 		(lib_name "CAP_S_11")
 		(lib_id "my_retro_chip:CAP_S")
-		(at 118.11 113.03 90)
+		(at 123.19 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23802,7 +23802,7 @@
 		(dnp no)
 		(uuid "add08de5-6e50-43b6-94b4-86b8e63847a9")
 		(property "Reference" "C75"
-			(at 127 110.236 90)
+			(at 132.08 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23813,7 +23813,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 125.476 115.824 90)
+			(at 130.556 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23823,7 +23823,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 113.03 0)
+			(at 123.19 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23834,7 +23834,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 113.03 0)
+			(at 123.19 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23845,7 +23845,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 118.11 113.03 0)
+			(at 123.19 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24338,7 +24338,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 110.49 115.57 0)
+		(at 115.57 114.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -24350,7 +24350,7 @@
 		(fields_autoplaced yes)
 		(uuid "b9712ce5-e014-477a-b8ab-1ed740a562c1")
 		(property "Reference" "#PWR0241"
-			(at 110.49 121.92 0)
+			(at 115.57 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24361,7 +24361,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 110.4899 119.38 90)
+			(at 115.5699 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24372,7 +24372,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 110.49 115.57 0)
+			(at 115.57 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24383,7 +24383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 115.57 0)
+			(at 115.57 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24394,7 +24394,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 110.49 115.57 0)
+			(at 115.57 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24595,7 +24595,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 63.5 111.76 0)
+		(at 68.58 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24605,7 +24605,7 @@
 		(dnp no)
 		(uuid "bb6d1721-4512-47f5-9c46-29e54aaad579")
 		(property "Reference" "#PWR0225"
-			(at 63.5 115.57 0)
+			(at 68.58 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24616,7 +24616,7 @@
 			)
 		)
 		(property "Value" "MVCC"
-			(at 63.5 107.442 0)
+			(at 68.58 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24626,7 +24626,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 111.76 0)
+			(at 68.58 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24637,7 +24637,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 111.76 0)
+			(at 68.58 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24648,7 +24648,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 63.5 111.76 0)
+			(at 68.58 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24849,7 +24849,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 25.4 111.76 0)
+		(at 30.48 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24859,7 +24859,7 @@
 		(dnp no)
 		(uuid "c2c3c6a9-0078-4d6f-b234-fb9a3a385de4")
 		(property "Reference" "#PWR0216"
-			(at 25.4 115.57 0)
+			(at 30.48 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24870,7 +24870,7 @@
 			)
 		)
 		(property "Value" "MVCC"
-			(at 25.4 107.442 0)
+			(at 30.48 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24880,7 +24880,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 25.4 111.76 0)
+			(at 30.48 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24891,7 +24891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 25.4 111.76 0)
+			(at 30.48 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24902,7 +24902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 25.4 111.76 0)
+			(at 30.48 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25019,7 +25019,7 @@
 	(symbol
 		(lib_name "CAP_S_13")
 		(lib_id "my_retro_chip:CAP_S")
-		(at 62.23 113.03 90)
+		(at 67.31 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25029,7 +25029,7 @@
 		(dnp no)
 		(uuid "c8cf94d7-d502-4d05-b37c-b7469df7cfab")
 		(property "Reference" "C72"
-			(at 71.12 110.236 90)
+			(at 76.2 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25040,7 +25040,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 72.39 115.316 90)
+			(at 77.47 114.046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25050,7 +25050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 62.23 113.03 0)
+			(at 67.31 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25061,7 +25061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 113.03 0)
+			(at 67.31 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25072,7 +25072,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 113.03 0)
+			(at 67.31 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25105,7 +25105,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 55.88 115.57 0)
+		(at 60.96 114.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -25117,7 +25117,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9094f96-4c60-4338-a607-0b566e69a18a")
 		(property "Reference" "#PWR0223"
-			(at 55.88 121.92 0)
+			(at 60.96 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25128,7 +25128,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 55.8799 119.38 90)
+			(at 60.9599 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25139,7 +25139,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 55.88 115.57 0)
+			(at 60.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25150,7 +25150,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 55.88 115.57 0)
+			(at 60.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25161,7 +25161,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 55.88 115.57 0)
+			(at 60.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25191,7 +25191,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 44.45 127 0)
+		(at 49.53 125.73 0)
 		(unit 5)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25201,7 +25201,7 @@
 		(dnp no)
 		(uuid "ce461221-d804-4753-982b-808941445ba4")
 		(property "Reference" "U56"
-			(at 40.386 114.808 0)
+			(at 45.466 113.538 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25211,7 +25211,7 @@
 			)
 		)
 		(property "Value" "74HC00"
-			(at 44.45 127.508 0)
+			(at 49.53 126.238 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25221,7 +25221,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 127 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25232,7 +25232,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 44.45 127 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25243,7 +25243,7 @@
 			)
 		)
 		(property "Description" "quad 2-input NAND gate"
-			(at 44.45 127 0)
+			(at 49.53 125.73 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25520,7 +25520,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 120.65 111.76 0)
+		(at 125.73 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25530,7 +25530,7 @@
 		(dnp no)
 		(uuid "cfcfa9fd-1255-4cec-ab6a-bb5da735baae")
 		(property "Reference" "#PWR0246"
-			(at 120.65 115.57 0)
+			(at 125.73 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25541,7 +25541,7 @@
 			)
 		)
 		(property "Value" "MVCC"
-			(at 120.65 107.442 0)
+			(at 125.73 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25551,7 +25551,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 111.76 0)
+			(at 125.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25562,7 +25562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 111.76 0)
+			(at 125.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25573,7 +25573,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 120.65 111.76 0)
+			(at 125.73 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25774,7 +25774,7 @@
 	(symbol
 		(lib_name "CAP_S_15")
 		(lib_id "my_retro_chip:CAP_S")
-		(at 99.06 113.03 90)
+		(at 104.14 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25784,7 +25784,7 @@
 		(dnp no)
 		(uuid "d83e6244-285d-4c51-ad2e-eae7f6ac02cc")
 		(property "Reference" "C74"
-			(at 107.95 110.236 90)
+			(at 113.03 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25795,7 +25795,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 106.426 115.824 90)
+			(at 111.506 114.554 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25805,7 +25805,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 113.03 0)
+			(at 104.14 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25816,7 +25816,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 113.03 0)
+			(at 104.14 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25827,7 +25827,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 113.03 0)
+			(at 104.14 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25861,7 +25861,7 @@
 	(symbol
 		(lib_name "CAP_S_12")
 		(lib_id "my_retro_chip:CAP_S")
-		(at 43.18 113.03 90)
+		(at 48.26 111.76 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25871,7 +25871,7 @@
 		(dnp no)
 		(uuid "d94a2b11-c2ee-4f30-b568-50076fe6b256")
 		(property "Reference" "C71"
-			(at 52.07 110.236 90)
+			(at 57.15 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25882,7 +25882,7 @@
 			)
 		)
 		(property "Value" "0.1u"
-			(at 53.34 115.316 90)
+			(at 58.42 114.046 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25892,7 +25892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 113.03 0)
+			(at 48.26 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25903,7 +25903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 113.03 0)
+			(at 48.26 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25914,7 +25914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 43.18 113.03 0)
+			(at 48.26 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26544,7 +26544,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 44.45 111.76 0)
+		(at 49.53 110.49 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26554,7 +26554,7 @@
 		(dnp no)
 		(uuid "dfb47935-1035-4f6f-af13-d0e8f74c5256")
 		(property "Reference" "#PWR0222"
-			(at 44.45 115.57 0)
+			(at 49.53 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26565,7 +26565,7 @@
 			)
 		)
 		(property "Value" "MVCC"
-			(at 44.45 107.442 0)
+			(at 49.53 106.172 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26575,7 +26575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 111.76 0)
+			(at 49.53 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26586,7 +26586,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 111.76 0)
+			(at 49.53 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26597,7 +26597,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 44.45 111.76 0)
+			(at 49.53 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27177,7 +27177,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 74.93 115.57 0)
+		(at 80.01 114.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27189,7 +27189,7 @@
 		(fields_autoplaced yes)
 		(uuid "ea1e3c22-dce5-4862-9e15-5942a1748e93")
 		(property "Reference" "#PWR0226"
-			(at 74.93 121.92 0)
+			(at 80.01 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27200,7 +27200,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 74.9299 119.38 90)
+			(at 80.0099 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27211,7 +27211,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 74.93 115.57 0)
+			(at 80.01 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27222,7 +27222,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 74.93 115.57 0)
+			(at 80.01 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27233,7 +27233,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 74.93 115.57 0)
+			(at 80.01 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27263,7 +27263,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 63.5 139.7 0)
+		(at 68.58 138.43 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27275,7 +27275,7 @@
 		(fields_autoplaced yes)
 		(uuid "eaf052e5-5680-4baf-a0c4-c10a0b5062ba")
 		(property "Reference" "#PWR0227"
-			(at 63.5 146.05 0)
+			(at 68.58 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27286,7 +27286,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 63.4999 143.51 90)
+			(at 68.5799 142.24 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27297,7 +27297,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 139.7 0)
+			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27308,7 +27308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 139.7 0)
+			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27319,7 +27319,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 63.5 139.7 0)
+			(at 68.58 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27945,7 +27945,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDREF")
-		(at 91.44 115.57 0)
+		(at 96.52 114.3 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -27957,7 +27957,7 @@
 		(fields_autoplaced yes)
 		(uuid "f6a4d1b1-3dcd-4e1f-a159-0d5e0a34962a")
 		(property "Reference" "#PWR0229"
-			(at 91.44 121.92 0)
+			(at 96.52 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27968,7 +27968,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 91.4399 119.38 90)
+			(at 96.5199 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27979,7 +27979,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 115.57 0)
+			(at 96.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27990,7 +27990,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 115.57 0)
+			(at 96.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28001,7 +28001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDREF\" , reference supply ground"
-			(at 91.44 115.57 0)
+			(at 96.52 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
