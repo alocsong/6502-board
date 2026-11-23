@@ -728,9 +728,14 @@
         "filename": "device0.kicad_sch",
         "name": "DEVICE0",
         "uuid": "8f34addd-c64e-475b-8920-5ddd706ad36e"
+      },
+      {
+        "filename": "keyboard.kicad_sch",
+        "name": "KEYBOARD",
+        "uuid": "80e194fd-1e76-457a-925a-9b04e6089a02"
       }
     ],
-    "used_designators": "#PWR1-253,A1,C1-76,D1-22,DS1,J1-7,JP1-4,L1-6,P1,Q1-7,R1-50,RV1,SW1-6,U1-68,Y1-3",
+    "used_designators": "#PWR1-253,#PWR255-268,A1,C1-78,D1-22,DS1,J1-8,JP1-4,L1-6,P1,Q1-7,R1-56,RV1,SW1-6,U1-68,Y1-4",
     "variants": []
   },
   "sheets": [
@@ -765,6 +770,10 @@
     [
       "8f34addd-c64e-475b-8920-5ddd706ad36e",
       "DEVICE0"
+    ],
+    [
+      "80e194fd-1e76-457a-925a-9b04e6089a02",
+      "KEYBOARD"
     ]
   ],
   "text_variables": {},
